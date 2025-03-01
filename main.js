@@ -31,8 +31,24 @@ let swiper = new Swiper(".slider-wrapper", {  // slider
 });
 
 
-window.addEventListener("scroll", function () {
-    // navbar
+
+let div = document.querySelector(".up");  //scrool
+window.onscroll = function () {
+    if (this.scrollY >= 300) {
+        div.classList.add("show");
+    } else {
+        div.classList.remove("show");
+    }
+};
+div.onclick = function () {
+    window.scrollTo({
+        top: 0,
+    });
+};
+
+
+
+window.addEventListener("scroll", function () {   // navbar
     var navbar = document.getElementById("navbar");
     if (window.scrollY > 50) {
         navbar.classList.add("scrolled");
@@ -55,5 +71,3 @@ window.addEventListener("scroll", function () {
 document.getElementById("menu-icon").addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("active");
 });
-
-
