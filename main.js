@@ -71,3 +71,26 @@ window.addEventListener("scroll", function () {   // navbar
 document.getElementById("menu-icon").addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("active");
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll(".service-card");
+    
+    cards.forEach(card => {
+        card.addEventListener("mouseenter", () => {
+            card.style.transform = "scale(1.1)";
+        });
+        
+        card.addEventListener("mouseleave", () => {
+            card.style.transform = "scale(1)";
+        });
+    });
+});
+
+
+
+
+
+
+
+
