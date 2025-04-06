@@ -28,22 +28,22 @@
             <div class="collapse navbar-collapse" id="main">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link p-lg-3 p-2 me-2 active" href="#">Home</a>
+                        <a class="nav-link p-lg-3 p-2 me-2 active" href="#" data-i18n="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-lg-3 p-2 me-2" href="#About Us">About Us</a>
+                        <a class="nav-link p-lg-3 p-2 me-2" href="#About Us" data-i18n="about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-lg-3 p-2 me-2" href="#Our Portfolio">Our Portfolio</a>
+                        <a class="nav-link p-lg-3 p-2 me-2" href="#Our Portfolio" data-i18n="portfolio">Our Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-lg-3 p-2 me-2" href="#Our Products">Our Products</a>
+                        <a class="nav-link p-lg-3 p-2 me-2" href="#Our Products" data-i18n="products">Our Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-lg-3 p-2 me-2" href="#Contact">Contact</a>
+                        <a class="nav-link p-lg-3 p-2 me-2" href="#Contact" data-i18n="contact">Contact</a>
                     </li>
                 </ul>
-                <a class=" ms-3 lang" id="language-toggle" href="#">Ar</a>
+                <a class="ms-3 lang" id="language-toggle" href="#" onclick="toggleLanguage(event)">Ar</a>
             </div>
         </div>
     </nav>
@@ -51,52 +51,49 @@
 
     <!-- section two -->
     <section id="hero" class="hero section dark-background">
-
-        <img src="images/pexels-cottonbro-6804612.jpg" alt="" data-aos="fade-in">
+        <img src="images/pexels-cottonbro-6804612.jpg" alt="" data-aos="fade-in" />
 
         <div class="container">
-
             <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-xl-8 col-lg-6">
-                    <h2>Fikrati <span>Software</span> Solutions<span>.</span></h2>
-                    <p>For website design and development services and phone applications operating on the Android and
+                    <h2 data-i18n="hero_title">Fikrati <span>Software</span> Solutions<span>.</span></h2>
+                    <p data-i18n="hero_paragraph">
+                        For website design and development services and phone applications operating on the Android and
                         iOS operating systems, the company provides integrated web solutions to all institutions in the
-                        world and has a huge customer base in all countries of the world.</p>
+                        world and has a huge customer base in all countries of the world.
+                    </p>
                 </div>
             </div>
+
             <div class="icons">
-                <a href=""><i class="fa-brands fa-facebook  fa-bounce pe-1"></i></a>
+                <a href=""><i class="fa-brands fa-facebook fa-bounce pe-1"></i></a>
                 <a href=""><i class="fa-brands fa-linkedin fa-bounce pe-1"></i></a>
-                <a href=""><i class="fa-brands fa-twitter  fa-bounce pe-1"></i></a>
-                <a href=""><i class="fa-brands fa-whatsapp  fa-bounce pe-1"></i></a>
-                <a href=""><i class="fa-brands fa-github  fa-bounce pe-1"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-bounce pe-1"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp fa-bounce pe-1"></i></a>
+                <a href=""><i class="fa-brands fa-github fa-bounce pe-1"></i></a>
             </div>
 
             <div class="row gy-4 mt-2 justify-content-center one" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="icon-box">
                         <i class="fas fa-briefcase" style="color: #0d83fd;"></i>
-                        <h3><a href="">Our Portfolio</a></h3>
+                        <h3><a href="" data-i18n="hero_portfolio">Our Portfolio</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 mt-3 two" data-aos="fade-up" data-aos-delay="400">
                     <div class="icon-box">
-                        <!-- <i class="fas fa-arrow-right" style="color: #0d83fd;"></i> -->
                         <i class="fas fa-info-circle" style="color: #0d83fd;"></i>
-                        <h3><a href="">More Details</a></h3>
+                        <h3><a href="" data-i18n="hero_details">More Details</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-4 three" data-aos="fade-up" data-aos-delay="500">
                     <div class="icon-box">
                         <i class="fas fa-box" style="color: #0d83fd;"></i>
-                        <h3><a href="">Our Products</a></h3>
+                        <h3><a href="" data-i18n="hero_products">Our Products</a></h3>
                     </div>
                 </div>
             </div>
-
-
         </div>
-
     </section>
     <!-- section two -->
 
@@ -104,16 +101,21 @@
     <div class="container" id="About Us">
         <div class="about-us">
             <div class="info-box">
-                <h1>About Us</h1>
+                <h1 data-i18n="aboutus_title">About Us</h1>
+
                 <p>
-                <h3>Nami is a company specialized in providing Integrated web services</h3>
+                <h3 data-i18n="aboutus_subtitle">Nami is a company specialized in providing Integrated web services</h3>
                 </p>
-                <p>Starting from graphic design to programming and designing smart phone
+
+                <p data-i18n="aboutus_paragraph">
+                    Starting from graphic design to programming and designing smart phone
                     applications, Nami strivesAnd its work team from the day of its
                     establishment until it became one of the most important Arab web
                     development companies, and weWe know the path and we are walking
-                    on it with great strides.</p>
+                    on it with great strides.
+                </p>
             </div>
+
             <div class="image-box">
                 <img src="./images/pexels-goumbik-574070.jpg" alt="">
             </div>
@@ -124,339 +126,367 @@
     <!-- Services -->
     <section class="services text-center py-5">
         <div class="container">
-            <h1 class="text-start fw-bold">Our Services</h1>
-            <h2>WHERE QUALITY MEETS INNOVATION</h2>
-            <p class="text-muted">We provide high-quality services that ensure innovation and efficiency.</p>
+            <h1 class="text-start fw-bold" data-i18n="ourServices">Our Services</h1>
+            <h2 data-i18n="qualityMeetsInnovation">WHERE QUALITY MEETS INNOVATION</h2>
+            <p class="text-muted" data-i18n="serviceIntro">We provide high-quality services that ensure innovation and efficiency.</p>
             <div class="row mt-4">
 
                 <div class="col-lg-4 col-md-6 col-12 all-cards">
-                    <div class="service-card p-4 mb-4" data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
+                    <div class="service-card p-4 mb-4" 
+                    data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
                         <div>
-                        <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/development.png" style="width: fit-content;" alt="Vision Icon">
-                        <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png" style="width: 35px;rotate: -45deg;" alt=""></div></div>
-                        <h4 class="fw-bold">Website development</h4>
-                        <p>We excel in building advanced and responsive websites that reflect your brand identity and
-                            help you communicate effectively with your audience. From design to implementation, we are
-                            committed to delivering an exceptional digital experience.</p>
+                            <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/development.png"
+                                    style="width: fit-content;" alt="Vision Icon">
+                                <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png"
+                                        style="width: 35px;rotate: -45deg;" alt=""></div>
+                            </div>
+                            <h4 class="fw-bold" data-i18n="webDevelopment">Website development</h4>
+                            <p data-i18n="webDevelopmentDesc">We excel in building advanced and responsive websites that reflect your brand identity and
+                                help you communicate effectively with your audience. From design to implementation, we are
+                                committed to delivering an exceptional digital experience.</p>
                         </div>
                         <div class="Show d-flex justify-content-center mt-4">
-                    <button class="read-more text-start">Show More <i class="fas fa-info-circle" style="width: 15px;margin-bottom: -6px;"></i></button>
+                            <button class="read-more text-start" data-i18n="showMore">Show More <i class="fas fa-info-circle"
+                                    style="width: 15px;margin-bottom: -6px;"></i></button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 all-cards">
-                    <div class="service-card p-4 mb-4" data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
+                    <div class="service-card p-4 mb-4"
+                        data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
                         <div>
-                        <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/app-development.png" alt="Vision Icon">
-                            <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png" style="width: 35px;rotate: -45deg;" alt=""></div></div>
-                        <h4 class="fw-bold">Mobile application</h4>
-                        <p>We provide comprehensive solutions for developing mobile applications on both Android and iOS
-                            platforms, with a focus on performance and optimal user experience to ensure your apps
-                            achieve widespread success.</p>
+                            <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/app-development.png"
+                                    alt="Vision Icon">
+                                <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png"
+                                        style="width: 35px;rotate: -45deg;" alt=""></div>
+                            </div>
+                            <h4 class="fw-bold" data-i18n="mobileApp">Mobile application</h4>
+                            <p data-i18n="mobileAppDesc">We provide comprehensive solutions for developing mobile applications on both Android and iOS
+                                platforms, with a focus on performance and optimal user experience to ensure your apps
+                                achieve widespread success.</p>
                         </div>
                         <div class="Show d-flex justify-content-center mt-4">
-                            <button class="read-more text-start">Show More <i class="fas fa-info-circle" style="width: 15px;margin-bottom: -6px;"></i></button>
+                            <button class="read-more text-start" data-i18n="showMore">Show More <i class="fas fa-info-circle"
+                                    style="width: 15px;margin-bottom: -6px;"></i></button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 all-cards">
-                    <div class="service-card p-4 mb-4" data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
+                    <div class="service-card p-4 mb-4"
+                        data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
                         <div>
-                        <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/coding.png" alt="Vision Icon">
-                            <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png" style="width: 35px;rotate: -45deg;" alt=""></div></div>
-                        <h4 class="fw-bold">Desktop development</h4>
-                        <p>We excel in building advanced and responsive websites that reflect your brand identity and
-                            help you communicate effectively with your audience. From design to implementation, we are
-                            committed to delivering an exceptional digital experience.</p>
-                        </div>
-                        <div class="Show d-flex justify-content-center mt-4">
-                            <button class="read-more text-start">Show More <i class="fas fa-info-circle" style="width: 15px;margin-bottom: -6px;"></i></button>
-                        </div>
-                </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 all-cards">
-                    <div class="service-card p-4 mb-4" data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
-                        <div>
-                        <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/seo-chatting.png" alt="Vision Icon">
-                            <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png" style="width: 35px;rotate: -45deg;" alt=""></div></div>
-                        <h4 class="fw-bold">Technical consulting</h4>
-                        <p>We excel in building advanced and responsive websites that reflect your brand identity and
-                            help you communicate effectively with your audience. From design to implementation, we are
-                            committed to delivering an exceptional digital experience.</p>
-                        </div>
-                        <div class="Show d-flex justify-content-center mt-4">
-                                <button class="read-more text-start">Show More <i class="fas fa-info-circle" style="width: 15px;margin-bottom: -6px;"></i></button>
+                            <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/coding.png"
+                                    alt="Vision Icon">
+                                <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png"
+                                        style="width: 35px;rotate: -45deg;" alt=""></div>
                             </div>
+                            <h4 class="fw-bold" data-i18n="desktopDev">Desktop development</h4>
+                            <p data-i18n="desktopDevDesc">We excel in building advanced and responsive websites that reflect your brand identity and
+                                help you communicate effectively with your audience. From design to implementation, we are
+                                committed to delivering an exceptional digital experience.</p>
+                        </div>
+                        <div class="Show d-flex justify-content-center mt-4">
+                            <button class="read-more text-start" data-i18n="showMore">Show More <i class="fas fa-info-circle"
+                                    style="width: 15px;margin-bottom: -6px;"></i></button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 all-cards">
-                    <div class="service-card p-4 mb-4" data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
+                    <div class="service-card p-4 mb-4"
+                        data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
                         <div>
-                        <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/cloud-computing.png" alt="Vision Icon">
-                            <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png" style="width: 35px;rotate: -45deg;" alt=""></div></div>
-                        <h4 class="fw-bold">Cloud services</h4>
-                        <p>We excel in building advanced and responsive websites that reflect your brand identity and
-                            help you communicate effectively with your audience. From design to implementation, we are
-                            committed to delivering an exceptional digital experience.</p>
+                            <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/seo-chatting.png"
+                                    alt="Vision Icon">
+                                <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png"
+                                        style="width: 35px;rotate: -45deg;" alt=""></div>
+                            </div>
+                            <h4 class="fw-bold" data-i18n="techConsulting">Technical consulting</h4>
+                            <p data-i18n="techConsultingDesc">We excel in building advanced and responsive websites that reflect your brand identity and
+                                help you communicate effectively with your audience. From design to implementation, we are
+                                committed to delivering an exceptional digital experience.</p>
                         </div>
                         <div class="Show d-flex justify-content-center mt-4">
-                                <button class="read-more text-start">Show More <i class="fas fa-info-circle" style="width: 15px;margin-bottom: -6px;"></i></button>
-                            </div>
+                            <button class="read-more text-start" data-i18n="showMore">Show More <i class="fas fa-info-circle"
+                                    style="width: 15px;margin-bottom: -6px;"></i></button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 all-cards">
-                    <div class="service-card p-4 mb-4" data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
+                    <div class="service-card p-4 mb-4"
+                        data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
                         <div>
-                        <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/testing.png" alt="Vision Icon">
-                            <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png" style="width: 35px;rotate: -45deg;" alt=""></div></div>
-                        <h4 class="fw-bold">Testing and Maintenance</h4>
-                        <p>We excel in building advanced and responsive websites that reflect your brand identity and
-                            help you communicate effectively with your audience. From design to implementation, we are
-                            committed to delivering an exceptional digital experience.</p>
+                            <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/cloud-computing.png"
+                                    alt="Vision Icon">
+                                <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png"
+                                        style="width: 35px;rotate: -45deg;" alt=""></div>
+                            </div>
+                            <h4 class="fw-bold" data-i18n="cloudServices">Cloud services</h4>
+                            <p data-i18n="cloudServicesDesc">We excel in building advanced and responsive websites that reflect your brand identity and
+                                help you communicate effectively with your audience. From design to implementation, we are
+                                committed to delivering an exceptional digital experience.</p>
                         </div>
                         <div class="Show d-flex justify-content-center mt-4">
-                                <button class="read-more text-start">Show More <i class="fas fa-info-circle" style="width: 15px;margin-bottom: -6px;"></i></button>
+                            <button class="read-more text-start" data-i18n="showMore">Show More <i class="fas fa-info-circle"
+                                    style="width: 15px;margin-bottom: -6px;"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 all-cards">
+                    <div class="service-card p-4 mb-4"
+                        data-work="→ User interface design (UI/UX)&#10;→ Front and back end development&#10;→ E-commerce development&#10;→ Dynamic websites">
+                        <div>
+                            <div class="icon mb-5 text-start w-100 d-flex"><img src="./images/testing.png"
+                                    alt="Vision Icon">
+                                <div class="arrow text-end w-100 mt-3 "><img src="./images/right.png"
+                                        style="width: 35px;rotate: -45deg;" alt=""></div>
+                            </div>
+                            <h4 class="fw-bold" data-i18n="testing">Testing and Maintenance</h4>
+                            <p data-i18n="testingDesc">We excel in building advanced and responsive websites that reflect your brand identity and
+                                help you communicate effectively with your audience. From design to implementation, we are
+                                committed to delivering an exceptional digital experience.</p>
+                        </div>
+                        <div class="Show d-flex justify-content-center mt-4">
+                            <button class="read-more text-start" data-i18n="showMore">Show More <i class="fas fa-info-circle"
+                                    style="width: 15px;margin-bottom: -6px;"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="text-end mb-3">
+                <button onclick="location.href=('https:/\/www.google.com')" class="click btn btn-custom pt-2" data-i18n="showAll">Show all</button>
+            </div>
         </div>
     </section>
-        <!-- Services -->
+    <!-- Services -->
 
     <!-- section three -->
     <div class="container py-5 Our">
-
         <div class="row mb-5">
             <div class="col-md-6">
                 <div class="vision-message">
                     <img src="./images/targeting.png" alt="Vision Icon">
-                    <h2 class="fw-bold">Our Vision</h2>
-                    <p>We seek to be the world's leading company in providing innovative technological solutions that
-                        help organizations achieve digital excellence and enhance their presence on the Internet in a
-                        unique and distinct way.</p>
+                    <h2 class="fw-bold" data-i18n="ourVision">Our Vision</h2>
+                    <p data-i18n="visionText">We seek to be the world's leading company in providing innovative
+                        technological solutions that help organizations achieve digital excellence and enhance their
+                        presence on the Internet in a unique and distinct way.</p>
                 </div>
             </div>
-            <div class="col-md-6 ">
+            <div class="col-md-6">
                 <div class="vision-message">
                     <img src="./images/comment.png" alt="Message Icon">
-                    <h2 class="fw-bold">Our Message</h2>
-                    <p>We empower our clients by providing website and mobile application design and development
-                        solutions that combine creativity, advanced technology, and a unique user experience to achieve
-                        their sustainable digital success.</p>
+                    <h2 class="fw-bold" data-i18n="ourMessage">Our Message</h2>
+                    <p data-i18n="messageText">We empower our clients by providing website and mobile application design
+                        and development solutions that combine creativity, advanced technology, and a unique user
+                        experience to achieve their sustainable digital success.</p>
                 </div>
             </div>
         </div>
 
         <div class="values">
             <div class="text-center mb-4">
-                <h2 class="section-title">Our Values</h2>
-                <p>We at Nami Corporation are proud of a set of core values that drive our operations, build our
-                    relationships with our customers, and define our approach to providing integrated technology
-                    solutions.</p>
+                <h2 class="section-title" data-i18n="ourValues">Our Values</h2>
+                <p data-i18n="valuesText">We at Nami Corporation are proud of a set of core values that drive our
+                    operations, build our relationships with our customers, and define our approach to providing
+                    integrated technology solutions.</p>
             </div>
 
             <div class="values-container">
                 <div class="value-card">
                     <div class="value-icon">&#10024;</div>
-                    <h5 class="fw-bold mt-2">Innovation</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="innovation">Innovation</h5>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">&#10004;</div>
-                    <h5 class="fw-bold mt-2">Quality</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="quality">Quality</h5>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">&#127919;</div>
-                    <h5 class="fw-bold mt-2">Focus On The Client</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="focusOnClient">Focus On The Client</h5>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">&#129309;</div>
-                    <h5 class="fw-bold mt-2">Teamwork</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="teamwork">Teamwork</h5>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">&#9889;</div>
-                    <h5 class="fw-bold mt-2">Quick Response</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="quickResponse">Quick Response</h5>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">&#128218;</div>
-                    <h5 class="fw-bold mt-2">Continuous Learning</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="continuousLearning">Continuous Learning</h5>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">&#127760;</div>
-                    <h5 class="fw-bold mt-2">Sustainability</h5>
+                    <h5 class="fw-bold mt-2" data-i18n="sustainability">Sustainability</h5>
                 </div>
             </div>
         </div>
-
     </div>
     <!-- section three -->
 
     <!-- section four -->
     <div class="container py-5 Portfolio" id="Our Portfolio">
-        <h1 class="text-start fw-bold">Our Portfolio</h1>
-        <h2 class="text-center">WHERE QUALITY MEETS INNOVATION</h2>
+        <h1 class="text-start fw-bold" data-i18n="ourPortfolio">Our Portfolio</h1>
+        <h2 class="text-center" data-i18n="qualityMeetsInnovation">WHERE QUALITY MEETS INNOVATION</h2>
         <div class="row mt-4 equal-height">
             <div class="col-lg-4 col-md-4 col-sm-4 d-flex">
                 <div class="card text-center w-100">
                     <img src="./images/jaa2sB7vMv1724655418.webp" class="img-fluid" alt="Circle App">
-                    <h4 class="mt-3">Circle</h4>
-                    <p>A world of shopping at your fingertips...kgkkgkgkkgkgkgkg</p>
+                    <h4 class="mt-3" data-i18n="circle">Circle</h4>
+                    <p data-i18n="circleDescription">A world of shopping at your fingertips...kgkkgkgkkgkgkgkg</p>
                     <div class="mb-3">
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fas fa-globe"></i>
-                            Website</a>
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fab fa-android"></i>
-                            Android</a>
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fab fa-apple"></i> iOS
-                            App</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="website"><i
+                                class="fas fa-globe"></i> Website</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="androidApp"><i
+                                class="fab fa-android"></i> Android</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="iosApp"><i
+                                class="fab fa-apple"></i> iOS App</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 d-flex">
                 <div class="card text-center w-100">
                     <img src="./images/qiYwM6ZGSK1724587266.webp" class="img-fluid" alt="Mishwar App">
-                    <h4 class="mt-3">Mishwar</h4>
-                    <p>A leading company in the delivery services sector...jhckdc hdwuehdiudw edw</p>
+                    <h4 class="mt-3" data-i18n="mishwar">Mishwar</h4>
+                    <p data-i18n="mishwarDescription">A leading company in the delivery services sector...jhckdc
+                        hdwuehdiudw edw</p>
                     <div class="mb-3">
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fas fa-globe"></i>
-                            Website</a>
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fab fa-android"></i>
-                            Android</a>
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fab fa-apple"></i> iOS
-                            App</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="website"><i
+                                class="fas fa-globe"></i> Website</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="androidApp"><i
+                                class="fab fa-android"></i> Android</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="iosApp"><i
+                                class="fab fa-apple"></i> iOS App</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 d-flex">
                 <div class="card text-center w-100">
                     <img src="./images/ZkCygsD4L91724050862.webp" class="img-fluid" alt="ADhmn App">
-                    <h4 class="mt-3">ADhmn</h4>
-                    <p>Home maintenance tools designed for you...gjggjgjjgjgg</p>
+                    <h4 class="mt-3" data-i18n="adhmn">ADhmn</h4>
+                    <p data-i18n="adhmnDescription">Home maintenance tools designed for you...gjggjgjjgjgg</p>
                     <div class="mb-3">
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fas fa-globe"></i>
-                            Website</a>
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fab fa-android"></i>
-                            Android</a>
-                        <a href="#" class="badge bg-secondary text-decoration-none"><i class="fab fa-apple"></i> iOS
-                            App</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="website"><i
+                                class="fas fa-globe"></i> Website</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="androidApp"><i
+                                class="fab fa-android"></i> Android</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none" data-i18n="iosApp"><i
+                                class="fab fa-apple"></i> iOS App</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="text-end mb-3">
-            <button onclick="location.href=('https:/\/www.google.com')" class="btn btn-custom">Show all</button>
+            <button onclick="location.href=('https:/\/www.google.com')" class="click btn btn-custom pt-2 pb-2" data-i18n="showAll">Show all</button>
         </div>
-
     </div>
     <!-- section four -->
 
     <!-- section five -->
     <section class="testimonials-section container" id="Our Products">
-        <h1 class="text-start fw-bold">Our Products</h1>
-        <h2 class="text-center mb-4 text-uppercase">We bring your digital vision to life</h2>
+        <h1 class="text-start fw-bold" data-i18n="ourProducts">Our Products</h1>
+        <h2 class="text-center mb-4 text-uppercase" data-i18n="productsSubTitle">We bring your digital vision to life</h2>
+      
         <div class="section-content fade-in">
-            <div class="slider-container swiper">
-                <div class="slider-wrapper">
-                    <ul class="testimonials-list swiper-wrapper">
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">Husun</h3>
-                            <i class="feedback">Logo of Husun ​​Real Estate and Contracting Company, a mineral water</i>
-                            <img src="./images/t0gmNin06q1731147836.webp" alt="User" class="user-image" />
-                        </li>
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">Al Raya Al Naqi</h3>
-                            <i class="feedback">Visual identity for Al kkjk lRaya Al Naqi Company, a mineral water
-                                company</i>
-                            <img src="./images/7N677bnXk91731147563.webp" alt="User" class="user-image" />
-                        </li>
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">munasaba</h3>
-                            <i class="feedback">Logo for the "munasaba" application for booking parties and events</i>
-                            <img src="./images/KpeQ9nk7IZ1731148235.webp" alt="User" class="user-image" />
-                        </li>
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">munasaba</h3>
-                            <i class="feedback">Logo for the "munasaba" application for booking parties and events</i>
-                            <img src="./images/pexels-goumbik-574070.jpg" alt="User" class="user-image" />
-                        </li>
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">munasaba</h3>
-                            <i class="feedback">Logo for the "munasaba" application for booking parties and events</i>
-                            <img src="./images/pexels-goumbik-574070.jpg" alt="User" class="user-image" />
-                        </li>
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">munasaba</h3>
-                            <i class="feedback">Logo for the "munasaba" application for booking parties and events</i>
-                            <img src="./images/pexels-goumbik-574070.jpg" alt="User" class="user-image" />
-                        </li>
-                        <li class="testimonial swiper-slide  fade-in-left">
-                            <h3 class="name text-uppercase">munasaba</h3>
-                            <i class="feedback">Logo for the "munasaba" application for booking parties and events</i>
-                            <img src="./images/pexels-goumbik-574070.jpg" alt="User" class="user-image" />
-                        </li>
-                    </ul>
-                    <div class="swiper-pagination"></div>
-                    <!-- <div class="swiper-slide-button swiper-button-prev"></div>
-                    <div class="swiper-slide-button swiper-button-next"></div> -->
-                    <div class="text-end mb-3">
-                        <button onclick="location.href=('https:/\/www.google.com')" class="btn btn-custom">Show
-                            all</button>
-                    </div>
-                </div>
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide fade-in-left">
+                  <h3 class="name text-uppercase" data-i18n="product1Title">Husun</h3>
+                  <i class="feedback" data-i18n="product1Desc">Logo of Husun Real Estate and Contracting Company</i>
+                  <img src="./images/t0gmNin06q1731147836.webp" alt="User" class="user-image" />
+                </li>
+      
+                <li class="testimonial swiper-slide fade-in-left">
+                  <h3 class="name text-uppercase" data-i18n="product2Title">Al Raya Al Naqi</h3>
+                  <i class="feedback" data-i18n="product2Desc">Visual identity for Al Raya Al Naqi Company</i>
+                  <img src="./images/7N677bnXk91731147563.webp" alt="User" class="user-image" />
+                </li>
+      
+                <li class="testimonial swiper-slide fade-in-left">
+                  <h3 class="name text-uppercase" data-i18n="product3Title">Munasaba</h3>
+                  <i class="feedback" data-i18n="product3Desc">Logo for the "munasaba" application for booking events</i>
+                  <img src="./images/KpeQ9nk7IZ1731148235.webp" alt="User" class="user-image" />
+                </li>
+                <li class="testimonial swiper-slide fade-in-left">
+                  <h3 class="name text-uppercase" data-i18n="product3Title">Munasaba</h3>
+                  <i class="feedback" data-i18n="product3Desc">Logo for the "munasaba" application for booking events</i>
+                  <img src="./images/KpeQ9nk7IZ1731148235.webp" alt="User" class="user-image" />
+                </li>
+                <li class="testimonial swiper-slide fade-in-left">
+                  <h3 class="name text-uppercase" data-i18n="product3Title">Munasaba</h3>
+                  <i class="feedback" data-i18n="product3Desc">Logo for the "munasaba" application for booking events</i>
+                  <img src="./images/KpeQ9nk7IZ1731148235.webp" alt="User" class="user-image" />
+                </li>
+                <li class="testimonial swiper-slide fade-in-left">
+                  <h3 class="name text-uppercase" data-i18n="product3Title">Munasaba</h3>
+                  <i class="feedback" data-i18n="product3Desc">Logo for the "munasaba" application for booking events</i>
+                  <img src="./images/KpeQ9nk7IZ1731148235.webp" alt="User" class="user-image" />
+                </li>
+                
+              </ul>
+      
+              <div class="swiper-pagination"></div>
+      
+              <div class="text-end mb-3">
+                <button class="click btn btn-custom pt-2 pb-2" data-i18n="showAll">Show all</button>
+              </div>
             </div>
+          </div>
         </div>
     </section>
     <!-- section five -->
 
     <!-- contact -->
     <div class="container py-5" id="Contact">
-        <h1><em>Contact With Us</em></h1>
-        <h2 class="text-center">LET US HELP YOU BUILD YOUR NEXT APP.</h2>
+        <h1><em data-i18n="contactWithUs">Contact With Us</em></h1>
+        <h2 class="text-center" data-i18n="helpBuildApp">LET US HELP YOU BUILD YOUR NEXT APP.</h2>
         <div class="contact-container">
             <div class="contact-form">
                 <form>
                     <div class="row mb-3">
                         <div class="col">
-                            <label>Name</label>
-                            <input type="text" class="form-control text-light" placeholder="Add your Name">
+                            <label data-i18n="name">Name</label>
+                            <input type="text" class="form-control text-light" data-i18n-placeholder="placeholderName">
                         </div>
                         <div class="col">
-                            <label>Email</label>
-                            <input type="email" class="form-control text-light" placeholder="Add your Email">
+                            <label data-i18n="email">Email</label>
+                            <input type="email" class="form-control text-light" data-i18n-placeholder="placeholderEmail">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <label>Phone</label>
-                            <input type="text" class="form-control text-light" placeholder="Add your Phone">
+                            <label data-i18n="phone">Phone</label>
+                            <input type="text" class="form-control text-light" data-i18n-placeholder="placeholderPhone">
                         </div>
                         <div class="col">
-                            <label>Subject</label>
-                            <input type="text" class="form-control text-light" placeholder="Add your Subject">
+                            <label data-i18n="subject">Subject</label>
+                            <input type="text" class="form-control text-light" data-i18n-placeholder="placeholderSubject">
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label>Message</label>
-                        <textarea class="form-control text-light" rows="3" placeholder="Add your Message"></textarea>
+                        <label data-i18n="message">Message</label>
+                        <textarea class="form-control text-light" rows="3" data-i18n-placeholder="placeholderMessage"></textarea>
                     </div>
-                    <button type="submit" class="send-btn">Send</button>
+                    <button type="submit" class="send-btn" data-i18n="send">Send</button>
                 </form>
             </div>
             <div class="contact-info">
-                <p class="p-one">Our team of professionals is committed to delivering exceptional results in software
-                    development and technical project management.</p>
-                <p><strong>Message Us</strong><br>
+                <p class="p-one" data-i18n="teamCommitment">Our team of professionals is committed to delivering
+                    exceptional results in software development and technical project management.</p>
+                <p><strong data-i18n="messageUs">Message Us</strong><br>
                     <a href="#">
                         <i class="fas fa-envelope fa-bounce"></i> &nbsp; info@nami-tec.com
                     </a>
                 </p>
-                <p><strong>Call Us At</strong><br>
+                <p><strong data-i18n="callUsAt">Call Us At</strong><br>
                     <a href="#">
                         <i class="fas fa-phone fa-shake"></i> &nbsp; +201015762659
                     </a>
                 </p>
-                <p><strong>WhatsApp</strong><br>
+                <p><strong data-i18n="whatsapp">WhatsApp</strong><br>
                     <a href="#">
                         <i class="fa-brands fa-whatsapp fa-bounce pe-1"></i> &nbsp; +201015762659
                     </a>
@@ -469,25 +499,26 @@
     <!-- tabe -->
     <div class="tabe-container mb-5">
         <div class="tabe-content">
-            <span>Web Development</span>
-            <span>Mobile Application</span>
-            <span>UI / UX </span>
-            <span>Software</span>
-            <span>E-Commerce</span>
-            <span>Database</span>
-            <span>project management</span>
-            <span>Information system</span>
-
-            <span>Web Development</span>
-            <span>Mobile Application</span>
-            <span>UI / UX </span>
-            <span>Software</span>
-            <span>E-Commerce</span>
-            <span>Database</span>
-            <span>project management</span>
-            <span>Information System</span>
+            <span data-i18n="webDevelopment">Web Development</span>
+            <span data-i18n="mobileApp">Mobile Application</span>
+            <span data-i18n="uiux">UI / UX</span>
+            <span data-i18n="software">Software</span>
+            <span data-i18n="ecommerce">E-Commerce</span>
+            <span data-i18n="database">Database</span>
+            <span data-i18n="projectManagement">Project Management</span>
+            <span data-i18n="infoSystem">Information System</span>
+    
+            <span data-i18n="webDevelopment">Web Development</span>
+            <span data-i18n="mobileApp">Mobile Application</span>
+            <span data-i18n="uiux">UI / UX</span>
+            <span data-i18n="software">Software</span>
+            <span data-i18n="ecommerce">E-Commerce</span>
+            <span data-i18n="database">Database</span>
+            <span data-i18n="projectManagement">Project Management</span>
+            <span data-i18n="infoSystem">Information System</span>
         </div>
     </div>
+    
     <!-- tabe -->
 
     <!-- footer -->
@@ -495,60 +526,61 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-4">
-                    <div class="info mb-5 ">
+                    <div class="info mb-5">
                         <img class="mb-4" src="images/photo_2025-02-28_19-20-58.jpg" alt="">
-                        <p class="mb-5 p1-foo">At Integrated Solutions, we combine creativity and professionalism to
-                            transform your ideas into inspiring digital experiences. Connect with us today to achieve
-                            tangible success together.</p>
+                        <p class="mb-5 p1-foo" data-i18n="footerInfo">At Integrated Solutions, we combine creativity and
+                            professionalism to transform your ideas into inspiring digital experiences. Connect with us
+                            today to achieve tangible success together.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-2 col-sm-6">
-                    <h5 class="text-light">Links</h5>
+                    <h5 class="text-light" data-i18n="footerLinks">Links</h5>
                     <ul class="list-unstyled lh-lg">
                         <a href="">
-                            <li>Home</li>
+                            <li data-i18n="home">Home</li>
                         </a>
                         <a href="">
-                            <li>Our Services</li>
+                            <li data-i18n="ourServices">Our Services</li>
                         </a>
                         <a href="">
-                            <li>Portfolio</li>
+                            <li data-i18n="portfolio">Portfolio</li>
                         </a>
                         <a href="">
-                            <li>Testimonials</li>
+                            <li data-i18n="testimonials">Testimonials</li>
                         </a>
                         <a href="">
-                            <li>Support</li>
+                            <li data-i18n="support">Support</li>
                         </a>
                         <a href="">
-                            <li>Terms And Condition</li>
+                            <li data-i18n="termsAndConditions">Terms And Condition</li>
                         </a>
                     </ul>
                 </div>
                 <div class="col-md-6 col-lg-2 col-sm-6">
-                    <h5 class="text-light">About Us</h5>
+                    <h5 class="text-light" data-i18n="footerAboutUs">About Us</h5>
                     <ul class="list-unstyled lh-lg">
                         <a href="">
-                            <li>Sign in</li>
+                            <li data-i18n="signIn">Sign in</li>
                         </a>
                         <a href="">
-                            <li>Register</li>
+                            <li data-i18n="register">Register</li>
                         </a>
                         <a href="">
-                            <li>About Us</li>
+                            <li data-i18n="aboutUs">About Us</li>
                         </a>
                         <a href="">
-                            <li>Blog</li>
+                            <li data-i18n="blog">Blog</li>
                         </a>
                         <a href="">
-                            <li>Contact Us</li>
+                            <li data-i18n="contactUs">Contact Us</li>
                         </a>
                     </ul>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="contact">
-                        <h5 class="text-light mb-2">Contact Us</h5>
-                        <p class="lh-lg">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                        <h5 class="text-light mb-2" data-i18n="footerContact">Contact Us</h5>
+                        <p class="lh-lg" data-i18n="footerContactText">Get in touch with us via mail or phone. We are
+                            waiting for your call or message</p>
                         <a class="btn rounded-pill main-btn w-100 mt-3" href="#">info@nami-tec.com</a>
                         <ul class="d-flex mt-5 list-unstyled gap-3 text-light">
                             <li><i class="fa-brands fa-facebook facebook rounded-circle p-2"></i></li>
@@ -562,8 +594,8 @@
             </div>
             <hr>
             <div class="copyright">
-                <div>© 2025 All rights reserved for Fikrati Software Development Company . <span>Fikrati.com</span>
-                </div>
+                <div data-i18n="copyrightText">© 2025 All rights reserved for Fikrati Software Development Company.
+                    <span>Fikrati.com</span></div>
             </div>
         </div>
     </div>
