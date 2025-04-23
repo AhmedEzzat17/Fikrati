@@ -19,6 +19,30 @@ html{
   --main-color: #0d83fd;
   /* --main-color: #3d464d; */
 }
+.fade-in {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 1s ease 0.5s, transform 1s ease 0.5s;
+  will-change: opacity, transform;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease 0.5s, transform 1s ease 0.5s;
+  will-change: opacity, transform;
+}
+
+.fade-in-left.visible {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 /* navbar */
 .lang {
   display: inline-block;
@@ -130,8 +154,8 @@ html{
   border-radius: 35%;
 }
 .navbar-brand img {
-  width: 80px;
-  height: 40px;
+  width: 110px;
+  height: 50px;
 }
 .navbar .navbar-toggler {
   color: var(--light-color);
@@ -222,7 +246,7 @@ html{
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  filter: brightness(0.4);
+  filter: brightness(0.8);
 }
 .hero:before {
   content: "";
@@ -278,7 +302,6 @@ svg:not(:root).svg-inline--fa {
   font-weight: 700;
   margin: 10px 0 0 0;
   padding: 0;
-  line-height: 1;
   font-size: 20px;
   line-height: 26px;
 }
@@ -333,6 +356,7 @@ svg:not(:root).svg-inline--fa {
   color: #ffffff;
 }
 
+
 @media (min-width: 992px) {
   .col-lg-6 {
     flex: 0 0 auto;
@@ -352,11 +376,14 @@ svg:not(:root).svg-inline--fa {
     padding-right: 10px;
   }
   .hero .icon-box {
-    padding: 10px;
+    padding: 7px;
   }
   .icons i {
     font-size: 25px;
     margin: 0 10px;
+  }
+  .hero .icon-box h3{
+    font-size: 17px!important;
   }
 }
 
@@ -385,9 +412,6 @@ svg:not(:root).svg-inline--fa {
   }
   .hero p {
     font-size: 14px;
-  }
-  .hero .icon-box {
-    padding: 8px;
   }
   .icons i {
     font-size: 20px;
@@ -545,7 +569,9 @@ transform: scale(1.02);
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  font-size: 1.05rem;
+  font-size: 1.03rem;
+  padding: 15px;
+  text-align: start;
   transition: 0.6s;
   transform: translateX(calc(-100% - 5px));
   white-space: pre-wrap;
@@ -1061,13 +1087,17 @@ transform: scale(1.02);
 /* footer */
 .footer {
   /* background-color: #2d3538; */
-  background-color: #13193b;
+  /* background-color: #13193b; */
+  background-color: #0d81fd15;
 }
 .footer .copyright > span {
-  color: var(--main-color);
+  color: var(--main-color)!important;
 }
 .footer .copyright div span {
-  color: var(--main-color);
+  color: var(--main-color)!important;
+}
+.footer .copyright .blue-text {
+  color: blue !important;
 }
 .footer .copyright {
   width: fit-content;

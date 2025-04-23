@@ -1,5 +1,4 @@
-let swiper = new Swiper(".slider-wrapper", {
-    // slider
+let swiper = new Swiper(".slider-wrapper", {    // slider
     loop: true,
     //   grabCursor: true,
     spaceBetween: 20,
@@ -32,8 +31,9 @@ let swiper = new Swiper(".slider-wrapper", {
 
 // ############################
 
-const translations = {
+const translations = {  //Services   Ar En lang
     en: {
+        title: "Fikrati",
         home: "Home",
         about: "About Us",
         portfolio: "Our Portfolio",
@@ -76,12 +76,19 @@ const translations = {
         testingDesc:
             "We excel in building advanced and responsive websites that reflect your brand identity and help you communicate effectively with your audience. From design to implementation, we are committed to delivering an exceptional digital experience.",
         showMore: "Show More",
-        // work1: "→ UI/UX Design\n→ Front and Back End Development\n→ E-commerce\n→ Dynamic Websites",
-        // work2: "→ Mobile UX/UI\n→ Android and iOS Development\n→ App Publishing\n→ Maintenance",
-        // work3: "→ Windows Applications\n→ Electron Apps\n→ Data-driven Systems\n→ Admin Panels",
-        // work4: "→ Digital Transformation\n→ IT Infrastructure\n→ Security Solutions\n→ Automation",
-        // work5: "→ Cloud Hosting\n→ Backup Solutions\n→ SaaS Integration\n→ DevOps",
-        // work6: "→ QA Testing\n→ Debugging\n→ Regular Updates\n→ Performance Monitoring",
+
+        WebDetails: `→ User interface design (UI/UX)
+→ Front and back end development
+→ E-commerce development
+→ Dynamic websites`,
+        MobDetails: `→ Native apps
+→ Hybrid applications
+→ User interface design for applications
+→ Integration of applications with other systems`,
+        workDetails: `→ User interface design (UI/UX)
+→ Front and back end development
+→ E-commerce development
+→ Dynamic websites`,
 
         ourVision: "Our Vision",
         visionText:
@@ -175,6 +182,7 @@ const translations = {
             "© 2025 All rights reserved for Fikrati Software Development Company. Fikrati.com",
     },
     ar: {
+        title:"فـكـرتـي",
         home: "الرئيسية",
         about: "من نحن",
         portfolio: "أعمالنا",
@@ -215,12 +223,20 @@ const translations = {
         testingDesc:
             "نتميز ببناء مواقع إلكترونية متطورة وسريعة الاستجابة تعكس هوية علامتك التجارية وتساعدك على التواصل بفعالية مع جمهورك. من التصميم إلى التنفيذ، نلتزم بتقديم تجربة رقمية استثنائية.",
         showMore: "عرض المزيد",
-        // work1: "→ تصميم واجهات المستخدم وتجربة المستخدم\n→ تطوير الواجهة والخلفية\n→ تطوير المتاجر الإلكترونية\n→ مواقع ديناميكية",
-        // work2: "→ تصميم واجهة التطبيق\n→ تطوير Android وiOS\n→ نشر التطبيقات\n→ صيانة التطبيقات",
-        // work3: "→ تطبيقات ويندوز\n→ تطبيقات إلكترون\n→ أنظمة تعتمد على البيانات\n→ لوحات تحكم",
-        // work4: "→ التحول الرقمي\n→ البنية التحتية لتقنية المعلومات\n→ حلول الأمان\n→ الأتمتة",
-        // work5: "→ استضافة سحابية\n→ حلول النسخ الاحتياطي\n→ تكامل SaaS\n→ DevOps",
-        // work6: "→ اختبار الجودة\n→ تصحيح الأخطاء\n→ تحديثات دورية\n→ مراقبة الأداء",
+
+        WebDetails: `→ تصميم واجهة المستخدم وتجربة المستخدم (UI/UX)
+→ تطوير الواجهة الأمامية والخلفية
+→ تطوير المتاجر الإلكترونية
+→ مواقع ديناميكية`,
+        MobDetails: `→ تطبيقات أصلية (Native)
+→ تطبيقات هجينة (Hybrid)
+→ تصميم واجهة المستخدم للتطبيقات
+→ تكامل التطبيقات مع الأنظمة الأخرى`,
+        workDetails: `→ تصميم واجهة المستخدم وتجربة المستخدم (UI/UX)
+→ تطوير الواجهة الأمامية والخلفية
+→ تطوير المتاجر الإلكترونية
+→ مواقع ديناميكية`,
+
 
         ourVision: "رؤيتنا",
         visionText:
@@ -354,32 +370,56 @@ function applyTranslations() {
         const key = el.getAttribute("data-i18n-desc");
         el.querySelector("p").textContent = translations[currentLang][key];
     });
-
-    document.querySelectorAll("[data-i18n-work]").forEach((el) => {
-        // للخدمات
+    
+    document.querySelectorAll("[data-i18n-work]").forEach((el) => {        //services
         const key = el.getAttribute("data-i18n-work");
         const translatedValue = translations[currentLang][key];
         if (translatedValue) {
             el.setAttribute("data-work", translatedValue);
-            el.textContent = translatedValue;
-        } else {
-            console.warn(`Missing translation for key: ${key} in ${currentLang}`);
         }
     });
+    
 }
 
 function toggleLanguage(event) {
     event.preventDefault();
     currentLang = currentLang === "en" ? "ar" : "en";
+    localStorage.setItem("selectedLang", currentLang);
     applyTranslations();
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+    const savedLang = localStorage.getItem("selectedLang");
+    if (savedLang && (savedLang === "ar" || savedLang === "en")) {
+        currentLang = savedLang;
+    }
     applyTranslations();
 });
 
 //   ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
+// ############################
+
+document.addEventListener("DOMContentLoaded", () => {  // fade in , fade in left
+    const fadeInElements = document.querySelectorAll(".fade-in, .fade-in-left");
+  
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+    fadeInElements.forEach((el) => {
+      observer.observe(el);
+    });
+});
 // ############################
 
 let div = document.querySelector(".up"); //scrool
@@ -398,7 +438,7 @@ div.onclick = function () {
 
 // ############################
 
-window.addEventListener("scroll", function () {
+window.addEventListener("scroll", function () {  //navbar
     // navbar
     var navbar = document.getElementById("navbar");
     if (window.scrollY > 50) {
@@ -423,7 +463,9 @@ document.getElementById("menu-icon").addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("active");
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+// ############################
+
+document.addEventListener("DOMContentLoaded", function () {  //card
     const cards = document.querySelectorAll(".service-card");
 
     cards.forEach((card) => {
