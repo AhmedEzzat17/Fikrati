@@ -5,7 +5,7 @@ let swiper = new Swiper(".slider-wrapper", {    // slider
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        dynamicBullets: true,
+        dyFikraticBullets: true,
     },
     autoplay: {
         delay: 3000,
@@ -49,9 +49,9 @@ const translations = {  //Services   Ar En lang
 
         aboutus_title: "About Us",
         aboutus_subtitle:
-            "Nami is a company specialized in providing Integrated web services",
+            "Fikrati is a company specialized in providing Integrated web services",
         aboutus_paragraph:
-            "Starting from graphic design to programming and designing smartphone applications, Nami and its team have worked since its inception to become one of the leading Arab web development companies. We know the path and we’re walking it with steady steps.",
+            "Starting from graphic design to programming and designing smartphone applications, Fikrati and its team have worked since its inception to become one of the leading Arab web development companies. We know the path and we’re walking it with steady steps.",
 
         ourServices: "Our Services",
         qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
@@ -80,7 +80,7 @@ const translations = {  //Services   Ar En lang
         WebDetails: `→ User interface design (UI/UX)
 → Front and back end development
 → E-commerce development
-→ Dynamic websites`,
+→ DyFikratic websites`,
         MobDetails: `→ Native apps
 → Hybrid applications
 → User interface design for applications
@@ -88,7 +88,7 @@ const translations = {  //Services   Ar En lang
         workDetails: `→ User interface design (UI/UX)
 → Front and back end development
 → E-commerce development
-→ Dynamic websites`,
+→ DyFikratic websites`,
 
         ourVision: "Our Vision",
         visionText:
@@ -98,7 +98,7 @@ const translations = {  //Services   Ar En lang
             "We empower our clients by providing website and mobile application design and development solutions that combine creativity, advanced technology, and a unique user experience to achieve their sustainable digital success.",
         ourValues: "Our Values",
         valuesText:
-            "We at Nami Corporation are proud of a set of core values that drive our operations, build our relationships with our customers, and define our approach to providing integrated technology solutions.",
+            "We at Fikrati Corporation are proud of a set of core values that drive our operations, build our relationships with our customers, and define our approach to providing integrated technology solutions.",
         innovation: "Innovation",
         quality: "Quality",
         focusOnClient: "Focus On The Client",
@@ -111,12 +111,12 @@ const translations = {  //Services   Ar En lang
         qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
         circle: "Circle",
         circleDescription:
-            "A world of shopping at your fingertips...kgkkgkgkkgkgkgkg",
+            "A world of shopping at your fingertips...",
         mishwar: "Mishwar",
         mishwarDescription:
-            "A leading company in the delivery services sector...jhckdc hdwuehdiudw edw",
+            "A leading company in the delivery services sector...",
         adhmn: "ADhmn",
-        adhmnDescription: "Home maintenance tools designed for you...gjggjgjjgjgg",
+        adhmnDescription: "Home maintenance tools designed for you...",
         website: "Website",
         androidApp: "Android",
         iosApp: "iOS App",
@@ -197,9 +197,9 @@ const translations = {  //Services   Ar En lang
         hero_products: "منتجاتنا",
 
         aboutus_title: "من نحن",
-        aboutus_subtitle: "نامي هي شركة متخصصة في تقديم خدمات الويب المتكاملة",
+        aboutus_subtitle: "فـكـرتـي هي شركة متخصصة في تقديم خدمات الويب المتكاملة",
         aboutus_paragraph:
-            "بدءًا من التصميم الجرافيكي إلى برمجة وتصميم تطبيقات الهواتف الذكية، تسعى نمي وفريق عملها منذ تأسيسها لتكون من أبرز شركات تطوير الويب العربية. نحن نعرف الطريق ونسير عليه بخطى واثقة.",
+            "بدءًا من التصميم الجرافيكي إلى برمجة وتصميم تطبيقات الهواتف الذكية، تسعى فـكـرتـي وفريق عملها منذ تأسيسها لتكون من أبرز شركات تطوير الويب العربية. نحن نعرف الطريق ونسير عليه بخطى واثقة.",
 
         ourServices: "خدماتنا",
         qualityMeetsInnovation: "حيث تلتقي الجودة بالابتكار",
@@ -246,7 +246,7 @@ const translations = {  //Services   Ar En lang
             "نمكن عملائنا من خلال تقديم حلول تصميم وتطوير المواقع والتطبيقات المحمولة التي تجمع بين الإبداع والتكنولوجيا المتقدمة وتجربة المستخدم الفريدة لتحقيق النجاح الرقمي المستدام.",
         ourValues: "قيمنا",
         valuesText:
-            "نحن في شركة Nami نفخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
+            "نحن في شركة فـكـرتـي نفخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
         innovation: "الابتكار",
         quality: "الجودة",
         focusOnClient: "التركيز على العميل",
@@ -258,12 +258,12 @@ const translations = {  //Services   Ar En lang
         ourPortfolio: "أعمالنا",
         qualityMeetsInnovation: "حيث يلتقي الجودة بالإبداع",
         circle: "دائرة",
-        circleDescription: "عالم من التسوق في متناول يدك...kgkkgkgkkgkgkgkg",
+        circleDescription: "عالم من التسوق في متناول يدك...",
         mishwar: "مشوار",
         mishwarDescription:
-            "شركة رائدة في قطاع خدمات التوصيل...jhckdc hdwuehdiudw edw",
+            "شركة رائدة في قطاع خدمات التوصيل...",
         adhmn: "أدهمن",
-        adhmnDescription: "أدوات صيانة المنزل مصممة خصيصًا لك...gjggjgjjgjgg",
+        adhmnDescription: "أدوات صيانة المنزل مصممة خصيصًا لك...",
         website: "موقع إلكتروني",
         androidApp: "تطبيق أندرويد",
         iosApp: "تطبيق آيفون",
