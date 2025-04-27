@@ -1059,6 +1059,19 @@ transform: scale(1.02);
   }
 }
 
+body[dir="rtl"] .tabe-content {
+  animation: tabe2 12s infinite linear;
+}
+
+@keyframes tabe2 {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
 @keyframes bg-color {
   0% {
     background-color: var(--main-color);
@@ -1294,24 +1307,6 @@ body[dir="rtl"] .click {
   text-align: left!important;
 }
 
-/* body[dir="rtl"] .tabe-content {
-  display: flex;
-  white-space: nowrap;
-  animation: tabe 15s linear infinite;
-  width: max-content;
-} */
-body[dir="rtl"] .tabe-content {
-  animation: tabe 15s linear infinite;
-
-
-@keyframes tabe {
-  from {
-    transform: translateX(100%); /* البداية من اليمين */
-  }
-  to {
-    transform: translateX(-100%); /* النهاية لليسار */
-  }
-}}
 
 /* #################################################################### */
 /* #################################################################### */

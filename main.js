@@ -36,6 +36,7 @@ const translations = {  //Services   Ar En lang
         title: "Fikrati",
         home: "Home",
         about: "About Us",
+        Services: "Our Services",
         portfolio: "Our Portfolio",
         products: "Our Products",
 
@@ -49,7 +50,7 @@ const translations = {  //Services   Ar En lang
 
         aboutus_title: "About Us",
         aboutus_subtitle:
-            "Fikrati is a company specialized in providing Integrated web services",
+            "Fikriti is a company specialized in providing Integrated web services",
         aboutus_paragraph:
             "Starting from graphic design to programming and designing smartphone applications, Fikrati and its team have worked since its inception to become one of the leading Arab web development companies. We know the path and we’re walking it with steady steps.",
 
@@ -59,36 +60,66 @@ const translations = {  //Services   Ar En lang
             "We provide high-quality services that ensure innovation and efficiency.",
         webDevelopment: "Website development",
         webDevelopmentDesc:
-            "We excel in building advanced and responsive websites that reflect your brand identity and help you communicate effectively with your audience. From design to implementation, we are committed to delivering an exceptional digital experience.",
+            "Website development is a field that focuses on creating and designing websites. It includes two main parts: front-end which deals with the user interface and back-end which handles databases and servers. It uses technologies like HTML, CSS, JavaScript and programming languages like PHP or Python.",
         mobileApp: "Mobile application",
         mobileAppDesc:
-            "We provide comprehensive solutions for mobile apps on both Android and iOS platforms with a focus on performance and user experience.",
+            "Mobile application development is the field focused on creating applications for mobile devices on platforms like iOS and Android. It uses technologies and languages like Swift, Kotlin, Flutter, and React Native to create apps that work across different devices.",
         desktopDev: "Desktop development",
         desktopDevDesc:
-            "We excel in building advanced and responsive websites that reflect your brand identity and help you communicate effectively with your audience. From design to implementation, we are committed to delivering an exceptional digital experience.",
+            "Desktop application development is the field focused on creating software that runs on desktop computers. It involves using languages and technologies like C#, Java, Python, and C++ to create applications that work on operating systems like Windows, MacOS, and Linux.",
         techConsulting: "Technical consulting",
         techConsultingDesc:
-            "We excel in building advanced and responsive websites that reflect your brand identity and help you communicate effectively with your audience. From design to implementation, we are committed to delivering an exceptional digital experience.",
+            "Technical consulting is the field focused on providing advice and technical services to businesses or individuals to improve and develop their technological systems. It involves helping clients make strategic decisions about the best tools and technologies for their needs.",
         cloudServices: "Cloud services",
         cloudServicesDesc:
-            "We excel in building advanced and responsive websites that reflect your brand identity and help you communicate effectively with your audience. From design to implementation, we are committed to delivering an exceptional digital experience.",
+            "Cloud services is the field focused on providing technological solutions over the internet, such as data storage, computing, and remote system management. It involves using platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud to deliver services in a flexible and secure way.",
         testing: "Testing and Maintenance",
         testingDesc:
-            "We excel in building advanced and responsive websites that reflect your brand identity and help you communicate effectively with your audience. From design to implementation, we are committed to delivering an exceptional digital experience.",
+            "Testing and maintenance is the field focused on ensuring software quality by inspecting and testing it to identify bugs and issues. It also involves maintaining systems after launch to ensure their continuity and improve their performance.",
         showMore: "Show More",
+        WebDetails: `➥ User interface design & experience design (UI/UX)
 
-        WebDetails: `→ User interface design (UI/UX)
-→ Front and back end development
-→ E-commerce development
-→ DyFikratic websites`,
-        MobDetails: `→ Native apps
-→ Hybrid applications
-→ User interface design for applications
-→ Integration of applications with other systems`,
-        workDetails: `→ User interface design (UI/UX)
-→ Front and back end development
-→ E-commerce development
-→ DyFikratic websites`,
+➥ Front End & Back End development
+
+➥ E-commerce development
+
+➥ Dynamic websites`,
+        MobDetails: `➥ Native app development (iOS/Android)
+
+➥ Cross-platform development (e.g. Flutter, React Native)
+
+➥ Mobile UI/UX design
+
+➥ App store optimization (ASO)`,
+        DeskDetails: `➥ Native desktop app development (Windows, macOS, Linux)
+
+➥ Cross-platform desktop apps (e.g. Electron, Qt)
+
+➥ Desktop UI/UX design
+
+➥ Performance optimization for desktop apps`,
+        TechDetails: `➥ IT infrastructure consulting
+
+➥ Software architecture consulting
+
+➥ Cybersecurity consulting
+
+➥ Digital transformation strategy`,
+        CloudDetails: `➥ Cloud infrastructure setup (AWS, Azure, GCP)
+
+➥ Cloud migration services
+
+➥ Cloud security and compliance
+
+➥ Serverless architecture`,
+        TestDetails: `➥  Manual and automated testing
+
+➥ Bug fixing and troubleshooting
+
+➥ Security updates and patching
+
+➥ Software version upgrades`,
+
 
         ourVision: "Our Vision",
         visionText:
@@ -161,7 +192,7 @@ const translations = {  //Services   Ar En lang
         infoSystem: "Information System",
 
         footerInfo:
-            "At Integrated Solutions, we combine creativity and professionalism to transform your ideas into inspiring digital experiences. Connect with us today to achieve tangible success together.",
+            "At Fikriti Integrated Solutions, we combine creativity and professionalism to transform your ideas into inspiring digital experiences. Connect with us today to achieve tangible success together.",
         footerLinks: "Links",
         home: "Home",
         ourServices: "Our Services",
@@ -185,6 +216,7 @@ const translations = {  //Services   Ar En lang
         title:"فـكـرتـي",
         home: "الرئيسية",
         about: "من نحن",
+        Services: "خدماتنا",
         portfolio: "أعمالنا",
         products: "منتجاتنا",
         contact: "تواصل معنا",
@@ -206,36 +238,66 @@ const translations = {  //Services   Ar En lang
         serviceIntro: "نقدم خدمات عالية الجودة تضمن الابتكار والكفاءة.",
         webDevelopment: "تطوير المواقع الإلكترونية",
         webDevelopmentDesc:
-            "نتميز في بناء مواقع متقدمة ومتجاوبة تعكس هوية علامتك التجارية وتساعدك على التواصل الفعّال .",
+            "تطوير المواقع هو مجال بيختص بإنشاء وتصميم مواقع الإنترنت. بيشمل جانبين: الفرونت إند اللي بيتعامل مع واجهة المستخدم والباك إند اللي بيتعامل مع قواعد البيانات والسيرفرات. بيستخدم تقنيات زي HTML, CSS, JavaScript ولغات زي PHP أو Python. HTML, CSS, JavaScript، ولغات زي PHP أو Python.",
         mobileApp: "تطبيقات الجوال",
         mobileAppDesc:
-            "نقدم حلول شاملة لتطوير تطبيقات الهاتف على منصات Android وiOS مع التركيز على الأداء وتجربة المستخدم.",
+            "تطوير تطبيقات الموبايل هو مجال بيختص بإنشاء تطبيقات للهواتف المحمولة على أنظمة زي iOS و Android. بيستخدم تقنيات ولغات زي Swift و Kotlin و Flutter و React Native لإنشاء تطبيقات تعمل على الأجهزة المختلفة.",
         desktopDev: "تطبيقات سطح المكتب",
         desktopDevDesc:
-            "نتميز ببناء مواقع إلكترونية متطورة وسريعة الاستجابة تعكس هوية علامتك التجارية وتساعدك على التواصل بفعالية مع جمهورك. من التصميم إلى التنفيذ، نلتزم بتقديم تجربة رقمية استثنائية.",
+            "تطوير تطبيقات سطح المكتب هو مجال بيختص بإنشاء برامج تعمل على أجهزة الكمبيوتر المكتبية. بيشمل استخدام لغات وتقنيات زي C#, Java, Python، وC++ لإنشاء تطبيقات بتعمل على أنظمة تشغيل زي Windows وMacOS وLinux.",
         techConsulting: "الاستشارات التقنية",
         techConsultingDesc:
-            "نتميز ببناء مواقع إلكترونية متطورة وسريعة الاستجابة تعكس هوية علامتك التجارية وتساعدك على التواصل بفعالية مع جمهورك. من التصميم إلى التنفيذ، نلتزم بتقديم تجربة رقمية استثنائية.",
+            "الاستشارات التقنية هي مجال بيختص بتقديم النصائح والخدمات الفنية للشركات أو الأفراد لتحسين وتطوير أنظمتهم التكنولوجية. بيشمل مساعدة العملاء في اتخاذ قرارات استراتيجية حول الأدوات والتقنيات الأنسب لاحتياجاتهم.",
         cloudServices: "خدمات السحابة",
         cloudServicesDesc:
-            "نتميز ببناء مواقع إلكترونية متطورة وسريعة الاستجابة تعكس هوية علامتك التجارية وتساعدك على التواصل بفعالية مع جمهورك. من التصميم إلى التنفيذ، نلتزم بتقديم تجربة رقمية استثنائية.",
+            "خدمات السحابة هي مجال بيختص بتقديم حلول تكنولوجية من خلال الإنترنت مثل تخزين البيانات، الحوسبة، وإدارة الأنظمة عن بُعد. بيشمل استخدام منصات زي Amazon Web Services (AWS)، Microsoft Azure، وGoogle Cloud لتوفير الخدمات بشكل مرن وآمن.",
         testing: "الاختبار والصيانة",
         testingDesc:
-            "نتميز ببناء مواقع إلكترونية متطورة وسريعة الاستجابة تعكس هوية علامتك التجارية وتساعدك على التواصل بفعالية مع جمهورك. من التصميم إلى التنفيذ، نلتزم بتقديم تجربة رقمية استثنائية.",
+            "الاختبار والصيانة هو مجال بيختص بضمان جودة البرمجيات من خلال فحصها واختبارها للكشف عن الأخطاء والمشاكل. بيشمل أيضًا صيانة الأنظمة بعد إطلاقها لضمان استمراريتها وتحسين أدائها.",
         showMore: "عرض المزيد",
 
-        WebDetails: `→ تصميم واجهة المستخدم وتجربة المستخدم (UI/UX)
-→ تطوير الواجهة الأمامية والخلفية
-→ تطوير المتاجر الإلكترونية
-→ مواقع ديناميكية`,
-        MobDetails: `→ تطبيقات أصلية (Native)
-→ تطبيقات هجينة (Hybrid)
-→ تصميم واجهة المستخدم للتطبيقات
-→ تكامل التطبيقات مع الأنظمة الأخرى`,
-        workDetails: `→ تصميم واجهة المستخدم وتجربة المستخدم (UI/UX)
-→ تطوير الواجهة الأمامية والخلفية
-→ تطوير المتاجر الإلكترونية
-→ مواقع ديناميكية`,
+        WebDetails: `➥ تصميم واجهة وتجربة المستخدم (UI/UX)
+
+➥ تطوير الواجهة الأمامية والخلفية
+        
+➥ تطوير المتاجر الإلكترونية
+        
+➥ المواقع الديناميكية`,
+        MobDetails: `➥ تطوير التطبيقات الأصلية (iOS/Android)
+
+➥ تطوير التطبيقات عبر الأنظمة (مثل Flutter، React Native)
+
+➥ تصميم واجهة وتجربة المستخدم للتطبيقات
+
+➥ تحسين ظهور التطبيقات في متجر التطبيقات (ASO)`,
+        DeskDetails: `➥ تطوير التطبيقات الأصلية لسطح المكتب (Windows، macOS، Linux)
+
+➥ تطبيقات سطح المكتب عبر الأنظمة (مثل Electron، Qt)
+
+➥ تصميم واجهة وتجربة المستخدم لسطح المكتب
+
+➥ تحسين الأداء لتطبيقات سطح المكتب`,
+        TechDetails: `➥ استشارات البنية التحتية لتكنولوجيا المعلومات
+
+➥ استشارات هيكلة البرمجيات
+
+➥ استشارات الأمن السيبراني
+
+➥ استراتيجية التحول الرقمي`,
+        CloudDetails: `➥ إعداد بنية تحتية سحابية (AWS، Azure، GCP)
+
+➥ خدمات ترحيل البيانات إلى السحابة
+
+➥ أمان السحابة والامتثال
+
+➥ البنية المعمارية بدون خوادم (Serverless)`,
+        TestDetails: `➥ الاختبار اليدوي والتلقائي
+
+➥ إصلاح الأخطاء وحل المشاكل
+
+➥ التحديثات الأمنية وتصحيح الأخطاء
+
+➥ ترقية إصدارات البرمجيات`,
 
 
         ourVision: "رؤيتنا",
@@ -308,7 +370,7 @@ const translations = {  //Services   Ar En lang
         infoSystem: "نظم المعلومات",
 
         footerInfo:
-            "في حلول مدمجة، نحن نجمع بين الإبداع والاحترافية لتحويل أفكارك إلى تجارب رقمية ملهمة. تواصل معنا اليوم لتحقيق النجاح الملموس معًا.",
+            "في فـكـرتـي حلول مدمجة، نحن نجمع بين الإبداع والاحترافية لتحويل أفكارك إلى تجارب رقمية ملهمة. تواصل معنا اليوم لتحقيق النجاح الملموس معًا.",
         footerLinks: "الروابط",
         home: "الرئيسية",
         ourServices: "خدماتنا",
@@ -326,7 +388,7 @@ const translations = {  //Services   Ar En lang
         footerContactText:
             "تواصل معنا عبر البريد أو الهاتف. نحن في انتظار مكالمتك أو رسالتك",
         copyrightText:
-            "© 2025 جميع الحقوق محفوظة لشركة فكرتي لتطوير البرمجيات. Fikrati.com",
+            "© 2025 جميع الحقوق محفوظة لشركة فـكـرتـي لتطوير البرمجيات. Fikrati.com",
     },
 };
 
