@@ -5,7 +5,7 @@ let swiper = new Swiper(".slider-wrapper", {    // slider
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        dyFikraticBullets: true,
+        dynamicBullets: true,
     },
     autoplay: {
         delay: 3000,
@@ -540,5 +540,6 @@ document.addEventListener("DOMContentLoaded", function () {  //card
         });
     });
 });
+
 
 // ############################
