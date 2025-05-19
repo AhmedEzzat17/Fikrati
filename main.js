@@ -33,7 +33,8 @@ let swiper = new Swiper(".slider-wrapper", {    // slider
 
 const translations = {  //Services   Ar En lang
     en: {
-        title: "Fikrati",
+        title: "Fikrati | Software Solutions, Website Design and Applications",
+        description:"offers website programming services, smartphone application development, user interface design, and integrated software solutions for businesses and individuals. Contact us to realize your digital project with ease and professionalism.",
         home: "Home",
         about: "About Us",
         Services: "Our Services",
@@ -139,7 +140,7 @@ const translations = {  //Services   Ar En lang
         sustainability: "Sustainability",
 
         ourPortfolio: "Our Portfolio",
-        qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
+        // qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
         circle: "Circle",
         circleDescription:
             "A world of shopping at your fingertips...",
@@ -213,7 +214,8 @@ const translations = {  //Services   Ar En lang
             "© 2025 All rights reserved for Fikrati Software Development Company. Fikrati.com",
     },
     ar: {
-        title:"فـكـرتـي",
+        title:"فـكـرتـي | حلول برمجية وتصميم مواقع وتطبيقات",
+        description:"فكرتي تقدم خدمات برمجة المواقع، تطوير تطبيقات الهواتف الذكية، تصميم واجهات المستخدم، حلول برمجية متكاملة للمؤسسات والأفراد. تواصل معنا لتحقيق مشروعك الرقمي بسهولة واحترافية.",
         home: "الرئيسية",
         about: "من نحن",
         Services: "خدماتنا",
@@ -457,8 +459,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     applyTranslations();
 });
-
-//   ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 
 // ############################
 

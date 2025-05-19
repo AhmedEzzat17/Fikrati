@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://fikrati-roan.vercel.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://fikrati-roan.vercel.app/#About%20Us</loc>
+  </url>
+
+  <url>
+    <loc>https://fikrati-roan.vercel.app/#Services</loc>
+  </url>
+
+  <url>
+    <loc>https://fikrati-roan.vercel.app/#Our%20Portfolio</loc>
+  </url>
+
+  <url>
+    <loc>https://fikrati-roan.vercel.app/#Our%20Products</loc>
+  </url>
+
+  <url>
+    <loc>https://fikrati-roan.vercel.app/#Contact</loc>
+  </url>
+
+</urlset>

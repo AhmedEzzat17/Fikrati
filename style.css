@@ -21,7 +21,7 @@ html{
 }
 .fade-in {
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(-40px);
   transition: opacity 1s ease 0.5s, transform 1s ease 0.5s;
   will-change: opacity, transform;
 }
@@ -33,7 +33,7 @@ html{
 
 .fade-in-left {
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(40px);
   transition: opacity 1s ease 0.5s, transform 1s ease 0.5s;
   will-change: opacity, transform;
 }
