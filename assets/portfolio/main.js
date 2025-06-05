@@ -1,36 +1,3 @@
-let swiper = new Swiper(".slider-wrapper", {    // slider
-    loop: true,
-    grabCursor: false,
-    spaceBetween: 20,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-    },
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
-    speed: 500,
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        480: {
-            slidesPerView: 2,
-        },
-        991: {
-            slidesPerView: 2,
-        },
-        1024: {
-            slidesPerView: 3,
-        },
-    },
-    centeredSlides: false,
-});
-
-// ############################
-
 const translations = {  //Services   Ar En lang
     en: {
         title: "Fikriti | Software Solutions, Website Design and Applications",
@@ -40,8 +7,8 @@ const translations = {  //Services   Ar En lang
         Services: "Our Services",
         portfolio: "Our Portfolio",
         products: "Our Products",
-
         contact: "Contact",
+        
         hero_title: "Fikriti Software Solutions.",
         hero_paragraph:
             "For website design and development services and phone applications operating on the Android and iOS operating systems, the company provides integrated web solutions to all institutions in the world and has a huge customer base in all countries of the world.",
@@ -502,26 +469,10 @@ function initFadeInAnimations() {    // fade in , fade in left
   }
 // ############################
 
-let div = document.querySelector(".up"); //scrool
-window.onscroll = function () {
-    if (this.scrollY >= 300) {
-        div.classList.add("show");
-    } else {
-        div.classList.remove("show");
-    }
-};
-div.onclick = function () {
-    window.scrollTo({
-        top: 0,
-    });
-};
-
-// ############################
-
 window.addEventListener("scroll", function () {  //navbar
     // navbar
     var navbar = document.getElementById("navbar");
-    if (window.scrollY > 50) {
+    if (window.scrollY > 20) {
         navbar.classList.add("scrolled");
         navbar.style.width = "90%";
         navbar.style.margin = "0 auto";
@@ -539,12 +490,6 @@ window.addEventListener("scroll", function () {  //navbar
         navbar.style.borderRadius = "0";
     }
 });
-
-// document.getElementById("menu-icon").addEventListener("click", function () {
-//     document.querySelector(".navbar").classList.toggle("active");
-// });
-
-// ############################
 
 document.addEventListener("DOMContentLoaded", function() {  // navbar
   const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
@@ -573,6 +518,5 @@ document.addEventListener("DOMContentLoaded", function () {  //card
         });
     });
 });
-
 
 // ############################
