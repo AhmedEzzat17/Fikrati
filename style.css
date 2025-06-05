@@ -1426,7 +1426,7 @@ body[dir="rtl"] .tabe-content {
 }
 @media (max-width: 768px) {
   .phone {
-    bottom: 20px;
+    bottom: 70px;
     left: 20px;
     width: 45px;
     height: 45px;
@@ -1437,7 +1437,7 @@ body[dir="rtl"] .tabe-content {
 }
 @media (max-width: 480px) {
   .phone {
-    bottom: 15px;
+    bottom: 60px;
     left: 15px;
     width: 40px;
     height: 40px;

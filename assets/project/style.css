@@ -687,7 +687,7 @@ body[dir="rtl"] .tabe-content {
 }
 @media (max-width: 768px) {
   .phone {
-    bottom: 20px;
+    bottom: 70px;
     left: 20px;
     width: 45px;
     height: 45px;
@@ -698,7 +698,7 @@ body[dir="rtl"] .tabe-content {
 }
 @media (max-width: 480px) {
   .phone {
-    bottom: 15px;
+    bottom: 60px;
     left: 15px;
     width: 40px;
     height: 40px;
@@ -707,25 +707,7 @@ body[dir="rtl"] .tabe-content {
 /* #################################################################### */
 
 
-body[dir="rtl"] .service-card .arrow {
-  text-align: left!important;
-}
-body[dir="rtl"] .services h1 {
-  text-align: right!important;
-}
-body[dir="rtl"] .Portfolio h1 {
-  text-align: right!important;
-}
-body[dir="rtl"] .testimonials-section h1 {
-  text-align: right!important;
-}
-body[dir="rtl"] .testimonials-section{
-  direction: ltr;
-}
-body[dir="rtl"] .click {
-  text-align: center!important;
-}
-
+/* 
 
 /* #################################################################### */
 /* #################################################################### */
