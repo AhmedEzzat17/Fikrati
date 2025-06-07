@@ -207,20 +207,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ############################
 
-   window.addEventListener("load", function () {  //loading screen
-    const spinner = document.querySelector(".spinner");
-    const loader = document.getElementById("loader");
+window.addEventListener("load", () => {   //loading
+  const loader = document.getElementById("loader");
 
+  setTimeout(() => {
+    loader.classList.add("bg-hidden");
+  }, 1700);
+
+  if (typeof initFadeInAnimations === "function") {
     setTimeout(() => {
-      spinner.classList.add("hidden");
-    }, 1500);
-
-    setTimeout(() => {
-      loader.classList.add("bg-hidden");
-
       initFadeInAnimations();
-    }, 2000);
-  });
+    }, 2200);
+  }
+});
 
 // ############################
 

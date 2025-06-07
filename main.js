@@ -44,16 +44,16 @@ const translations = {  //Services   Ar En lang
         contact: "Contact",
         hero_title: "Fikriti Software Platform.",
         hero_paragraph:
-            "We specialize in designing and developing websites and smartphone applications for Android and iOS. Our team provides integrated and innovative web solutions that meet the needs of organizations worldwide, with a focus on quality, ease of use, and an optimal user experience.",
+            "We specialize in designing and developing websites, smartphone applications for Android and iOS, as well as developing desktop applications and hosting websites. Our team provides integrated and innovative web solutions that meet the needs of all organizations around the world, with a focus on quality, ease of use, and an optimal user experience.",
         hero_portfolio: "Our Portfolio",
         hero_details: "More Details",
         hero_products: "Our Services",
 
         aboutus_title: "About Us",
         aboutus_subtitle:
-            "Fikriti is a team specialized in providing Integrated web services",
+            "We are a team specialized in providing integrated programming services that meet all our clients needs.",
         aboutus_paragraph:
-            "Starting from graphic design to programming and designing smartphone applications, Fikriti and its team have worked since its inception to become one of the leading Arab web development companies. We know the path and we’re walking it with steady steps.",
+            "From programming and designing smartphone applications to developing desktop applications and hosting websites, Fikrati and its team have strived since its inception to become one of the most prominent Arab web development companies. We offer integrated solutions that meet all our clients' digital needs, and we know the path well and are moving forward with confidence.",
 
         ourServices: "Our Services",
         qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
@@ -71,9 +71,9 @@ const translations = {  //Services   Ar En lang
         techConsulting: "Technical consulting",
         techConsultingDesc:
             "Technical consulting is the field focused on providing advice and technical services to businesses or individuals to improve and develop their technological systems. It involves helping clients make strategic decisions about the best tools and technologies for their needs.",
-        cloudServices: "Cloud services",
+        cloudServices: "Hosting and uploading websites",
         cloudServicesDesc:
-            "Cloud services is the field focused on providing technological solutions over the internet, such as data storage, computing, and remote system management. It involves using platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud to deliver services in a flexible and secure way.",
+            "We provide reliable and secure hosting services that ensure stability and high performance for our clients' websites, whether they are small sites or large projects requiring advanced resources. We handle the process of uploading websites to servers, configuring necessary settings, linking domains, and ensuring the site is running efficiently around the clock. We are committed to providing continuous technical support to ensure a smooth and uninterrupted experience.",
         testing: "Testing and Maintenance",
         testingDesc:
             "Testing and maintenance is the field focused on ensuring software quality by inspecting and testing it to identify bugs and issues. It also involves maintaining systems after launch to ensure their continuity and improve their performance.",
@@ -106,13 +106,13 @@ const translations = {  //Services   Ar En lang
 ➥ Cybersecurity consulting
 
 ➥ Digital transformation strategy`,
-        CloudDetails: `➥ Cloud infrastructure setup (AWS, Azure, GCP)
+        CloudDetails: `➥ Reliable Hosting: Fast and secure for your site.
 
-➥ Cloud migration services
+➥ Site Deployment: Professional setup and domain linking.
 
-➥ Cloud security and compliance
+➥ Ongoing Support: Ready to solve any issue.
 
-➥ Serverless architecture`,
+➥ Flexible Plans: Suitable for all project sizes.`,
         TestDetails: `➥  Manual and automated testing
 
 ➥ Bug fixing and troubleshooting
@@ -148,6 +148,8 @@ const translations = {  //Services   Ar En lang
             "Online store for fresh fruits and vegetables with a user-friendly, responsive design.",
         adhmn: "Quarter State",
         adhmnDescription: "Real estate website for browsing and buying properties with a responsive, easy-to-navigate design.",
+        Advert: "United Digital Advertising",
+        AdvertDescription: "Website for an innovative digital advertising company offering innovative marketing solutions.",
         website: "Website",
         androidApp: "Android App",
         iosApp: "iOS App",
@@ -218,22 +220,21 @@ const translations = {  //Services   Ar En lang
         home: "الرئيسية",
         about: "من نحن",
         Services: "خدماتنا",
-        portfolio: "أعمالنا",
+        portfolio: "أعـمالنا",
         products: "منتجاتنا",
         contact: "تواصل معنا",
 
-        hero_title: "منصة فكرتي البرمجية",
+        hero_title: "فـريـق عـمـل فـكـرتـي",
         hero_paragraph:
-            "نحن متخصصون في تصميم وتطوير المواقع الإلكترونية وتطبيقات الهواتف الذكية لأنظمة أندرويد وiOS، ويقدم فريق العمل حلول ويب متكاملة ومبتكرة تلبي احتياجات جميع المؤسسات حول العالم، مع التركيز على الجودة، وسهولة الاستخدام، وتجربة المستخدم المثالية.",
+            "نحن متخصصون في تصميم وتطوير المواقع الإلكترونية، وتطبيقات الهواتف الذكية لأنظمة أندرويد وiOS، بالإضافة إلى تطوير تطبيقات الديسكتوب واستضافة المواقع. يقدم فريق العمل حلول ويب متكاملة ومبتكرة تلبي احتياجات جميع المؤسسات حول العالم، مع التركيز على الجودة، وسهولة الاستخدام، وتجربة المستخدم المثالية.",
         hero_portfolio: "أعـمـالـنـا",
         hero_details: "المزيد من التفاصيل",
         hero_products: "خـدمـاتـنـا",
 
         aboutus_title: "من نحن",
-        aboutus_subtitle: "فـكـرتـي هي فريق عمل متخصص في تقديم خدمات الويب المتكاملة",
+        aboutus_subtitle: " نحن فريق متخصص في تقديم خدمات برمجة متكاملة تلبي جميع احتياجات عملائنا.",
         aboutus_paragraph:
-            "بدءًا من التصميم الجرافيكي إلى برمجة وتصميم تطبيقات الهواتف الذكية، تسعى فـكـرتـي وفريق عملها منذ تأسيسها لتكون من أبرز شركات تطوير الويب العربية. نحن نعرف الطريق ونسير عليه بخطى واثقة.",
-
+            "بدءًا من برمجة وتصميم تطبيقات الهواتف الذكية، إلى تطوير تطبيقات الديسكتوب واستضافة المواقع، تسعى فكرتي وفريق عملها منذ تأسيسها إلى أن تكون من أبرز شركات تطوير الويب العربية. نحن نقدم حلولاً متكاملة تلبي جميع احتياجات عملائنا الرقمية، ونعرف الطريق جيدًا ونسير عليه بخطى واثقة.",
         ourServices: "خدماتنا",
         qualityMeetsInnovation: "حيث تلتقي الجودة بالابتكار",
         serviceIntro: "نقدم خدمات عالية الجودة تضمن الابتكار والكفاءة.",
@@ -249,9 +250,9 @@ const translations = {  //Services   Ar En lang
         techConsulting: "الاستشارات التقنية",
         techConsultingDesc:
             "الاستشارات التقنية هي مجال بيختص بتقديم النصائح والخدمات الفنية للشركات أو الأفراد لتحسين وتطوير أنظمتهم التكنولوجية. بيشمل مساعدة العملاء في اتخاذ قرارات استراتيجية حول الأدوات والتقنيات الأنسب لاحتياجاتهم.",
-        cloudServices: "خدمات السحابة",
+        cloudServices: "الأستضافة ورفع المواقع",
         cloudServicesDesc:
-            "خدمات السحابة هي مجال بيختص بتقديم حلول تكنولوجية من خلال الإنترنت مثل تخزين البيانات، الحوسبة، وإدارة الأنظمة عن بُعد. بيشمل استخدام منصات زي Amazon Web Services (AWS)، Microsoft Azure، وGoogle Cloud لتوفير الخدمات بشكل مرن وآمن.",
+            "نوفّر خدمات استضافة موثوقة وآمنة تضمن استقرار وأداء عالي لمواقع عملائنا، سواء كانت مواقع صغيرة أو مشاريع كبيرة تتطلب موارد متقدمة. كما نتولى عملية رفع المواقع على الخوادم، وضبط الإعدادات اللازمة، وربط النطاقات، والتأكد من أن الموقع يعمل بكفاءة على مدار الساعة. نحن نحرص على تقديم دعم فني متواصل لضمان تجربة سلسة ومستمرة دون انقطاع.",
         testing: "الاختبار والصيانة",
         testingDesc:
             "الاختبار والصيانة هو مجال بيختص بضمان جودة البرمجيات من خلال فحصها واختبارها للكشف عن الأخطاء والمشاكل. بيشمل أيضًا صيانة الأنظمة بعد إطلاقها لضمان استمراريتها وتحسين أدائها.",
@@ -285,13 +286,13 @@ const translations = {  //Services   Ar En lang
 ➥ استشارات الأمن السيبراني
 
 ➥ استراتيجية التحول الرقمي`,
-        CloudDetails: `➥ إعداد بنية تحتية سحابية (AWS، Azure، GCP)
+        CloudDetails: `➥ استضافة موثوقة: سرعة وأمان عالي لموقعك.
 
-➥ خدمات ترحيل البيانات إلى السحابة
+➥ رفع المواقع: إعداد احترافي وربط النطاق.
 
-➥ أمان السحابة والامتثال
+➥ دعم فني دائم: جاهزون لحل أي مشكلة.
 
-➥ البنية المعمارية بدون خوادم (Serverless)`,
+➥ خطط مرنة: تناسب مختلف أحجام المشاريع.`,
         TestDetails: `➥ الاختبار اليدوي والتلقائي
 
 ➥ إصلاح الأخطاء وحل المشاكل
@@ -310,7 +311,7 @@ const translations = {  //Services   Ar En lang
             "نمكن عملائنا من خلال تقديم حلول تصميم وتطوير المواقع والتطبيقات المحمولة التي تجمع بين الإبداع والتكنولوجيا المتقدمة وتجربة المستخدم الفريدة لتحقيق النجاح الرقمي المستدام.",
         ourValues: "قيمنا",
         valuesText:
-            "نحن في منصة فـكـرتـي نفخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
+            "فريق عمل فـكـرتـي يفتخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
         innovation: "الابتكار",
         quality: "الجودة",
         focusOnClient: "التركيز على العميل",
@@ -328,6 +329,9 @@ const translations = {  //Services   Ar En lang
             "موقع لبيع الخضراوات والفاكهة أونلاين بتصميم سهل الاستخدام ومتجاوب.",
         adhmn: "Quarter State",
         adhmnDescription: "موقع لعرض وشراء العقارات بتصميم متجاوب وسهل التصفح.",
+        Advert: "United Digital Advertising",
+        AdvertDescription: " موقع ويب لشركة إعلانات رقمية مبتكرة تقدم حلول تسويقية مبتكرة.",
+
         website: "موقع إلكتروني",
         androidApp: "تطبيق أندرويد",
         iosApp: "تطبيق آيفون",
@@ -372,7 +376,7 @@ const translations = {  //Services   Ar En lang
         infoSystem: "نظم المعلومات",
 
         footerInfo:
-            "في منصة فـكـرتـي ، نحن نجمع بين الإبداع والاحترافية لتحويل أفكارك إلى تجارب رقمية ملهمة. تواصل معنا اليوم لتحقيق النجاح الملموس معًا.",
+            "نحن فريق عمل فـكـرتـي ، نجمع بين الإبداع والاحترافية لتحويل أفكارك إلى تجارب رقمية ملهمة. تواصل معنا اليوم لتحقيق النجاح الملموس معًا.",
         footerLinks: "الروابط",
         home: "الرئيسية",
         ourServices: "خدماتنا",
@@ -461,20 +465,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ############################
 
-   window.addEventListener("load", function () {  //loading screen
-    const spinner = document.querySelector(".spinner");
-    const loader = document.getElementById("loader");
+window.addEventListener("load", () => {   //loading
+  const loader = document.getElementById("loader");
 
+  setTimeout(() => {
+    loader.classList.add("bg-hidden");
+  }, 1700);
+
+  if (typeof initFadeInAnimations === "function") {
     setTimeout(() => {
-      spinner.classList.add("hidden");
-    }, 1500);
-
-    setTimeout(() => {
-      loader.classList.add("bg-hidden");
-
       initFadeInAnimations();
-    }, 2000);
-  });
+    }, 2200);
+  }
+});
 
 // ############################
 
