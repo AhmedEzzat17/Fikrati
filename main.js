@@ -42,16 +42,16 @@ const translations = {  //Services   Ar En lang
         products: "Our Products",
 
         contact: "Contact",
-        hero_title: "Fikriti Software Solutions.",
+        hero_title: "Fikriti Software Platform.",
         hero_paragraph:
-            "For website design and development services and phone applications operating on the Android and iOS operating systems, the company provides integrated web solutions to all institutions in the world and has a huge customer base in all countries of the world.",
+            "We specialize in designing and developing websites and smartphone applications for Android and iOS. Our team provides integrated and innovative web solutions that meet the needs of organizations worldwide, with a focus on quality, ease of use, and an optimal user experience.",
         hero_portfolio: "Our Portfolio",
         hero_details: "More Details",
         hero_products: "Our Services",
 
         aboutus_title: "About Us",
         aboutus_subtitle:
-            "Fikriti is a company specialized in providing Integrated web services",
+            "Fikriti is a team specialized in providing Integrated web services",
         aboutus_paragraph:
             "Starting from graphic design to programming and designing smartphone applications, Fikriti and its team have worked since its inception to become one of the leading Arab web development companies. We know the path and we’re walking it with steady steps.",
 
@@ -124,13 +124,13 @@ const translations = {  //Services   Ar En lang
         OurGoals:"Our Goals",
         ourVision: "Our Vision",
         visionText:
-            "We seek to be the world's leading company in providing innovative technological solutions that help organizations achieve digital excellence and enhance their presence on the Internet in a unique and distinct way.",
+            "We seek to be the world's leading team in providing innovative technological solutions that help organizations achieve digital excellence and enhance their presence on the Internet in a unique and distinct way.",
         ourMessage: "Our Message",
         messageText:
             "We empower our clients by providing website and mobile application design and development solutions that combine creativity, advanced technology, and a unique user experience to achieve their sustainable digital success.",
         ourValues: "Our Values",
         valuesText:
-            "We at Fikriti Corporation are proud of a set of core values that drive our operations, build our relationships with our customers, and define our approach to providing integrated technology solutions.",
+            "We at Fikriti team are proud of a set of core values that drive our operations, build our relationships with our customers, and define our approach to providing integrated technology solutions.",
         innovation: "Innovation",
         quality: "Quality",
         focusOnClient: "Focus On The Client",
@@ -156,9 +156,9 @@ const translations = {  //Services   Ar En lang
         ourProducts: "Our Products",
         productsSubTitle: "We bring your digital vision to life",
         product1Title: "Husun",
-        product1Desc: "Logo of Husun Real Estate and Contracting Company",
+        product1Desc: "Logo of Husun Real Estate and Contracting team",
         product2Title: "Al Raya Al Naqi",
-        product2Desc: "Visual identity for Al Raya Al Naqi Company",
+        product2Desc: "Visual identity for Al Raya Al Naqi team",
         product3Title: "Munasaba",
         product3Desc: "Logo for the 'munasaba' application for booking events",
         showAll: "Show all",
@@ -192,7 +192,7 @@ const translations = {  //Services   Ar En lang
         infoSystem: "Information System",
 
         footerInfo:
-            "At Fikriti Integrated Solutions, we combine creativity and professionalism to transform your ideas into inspiring digital experiences. Connect with us today to achieve tangible success together.",
+            "At Platform Fikriti , we combine creativity and professionalism to transform your ideas into inspiring digital experiences. Connect with us today to achieve tangible success together.",
         footerLinks: "Links",
         home: "Home",
         ourServices: "Our Services",
@@ -210,7 +210,7 @@ const translations = {  //Services   Ar En lang
         footerContactText:
             "Get in touch with us via mail or phone. We are waiting for your call or message",
         copyrightText:
-            "© 2025 All rights reserved for Fikriti Software Development Company. Fikriti.com",
+            "© 2025 All rights reserved for Fikriti Software Development team. Fikriti.com",
     },
     ar: {
         title:"فـكـرتـي | حلول برمجية وتصميم مواقع وتطبيقات",
@@ -222,15 +222,15 @@ const translations = {  //Services   Ar En lang
         products: "منتجاتنا",
         contact: "تواصل معنا",
 
-        hero_title: "حلول فكرتي البرمجية",
+        hero_title: "منصة فكرتي البرمجية",
         hero_paragraph:
-            "لتصميم وتطوير المواقع الإلكترونية وتطبيقات الهواتف الذكية العاملة على أنظمة أندرويد وiOS، تقدم الشركة حلول ويب متكاملة لجميع المؤسسات حول العالم وتملك قاعدة عملاء ضخمة في كل الدول.",
+            "نحن متخصصون في تصميم وتطوير المواقع الإلكترونية وتطبيقات الهواتف الذكية لأنظمة أندرويد وiOS، ويقدم فريق العمل حلول ويب متكاملة ومبتكرة تلبي احتياجات جميع المؤسسات حول العالم، مع التركيز على الجودة، وسهولة الاستخدام، وتجربة المستخدم المثالية.",
         hero_portfolio: "أعـمـالـنـا",
         hero_details: "المزيد من التفاصيل",
         hero_products: "خـدمـاتـنـا",
 
         aboutus_title: "من نحن",
-        aboutus_subtitle: "فـكـرتـي هي شركة متخصصة في تقديم خدمات الويب المتكاملة",
+        aboutus_subtitle: "فـكـرتـي هي فريق عمل متخصص في تقديم خدمات الويب المتكاملة",
         aboutus_paragraph:
             "بدءًا من التصميم الجرافيكي إلى برمجة وتصميم تطبيقات الهواتف الذكية، تسعى فـكـرتـي وفريق عملها منذ تأسيسها لتكون من أبرز شركات تطوير الويب العربية. نحن نعرف الطريق ونسير عليه بخطى واثقة.",
 
@@ -304,13 +304,13 @@ const translations = {  //Services   Ar En lang
         OurGoals:"أهدافنا",
         ourVision: "رؤيتنا",
         visionText:
-            "نسعى لأن نكون الشركة الرائدة عالميًا في تقديم الحلول التكنولوجية المبتكرة التي تساعد المؤسسات في تحقيق التفوق الرقمي وتعزيز حضورها على الإنترنت بطريقة فريدة ومميزة.",
+            "نسعى لأن نكون فريق عمل رائد عالميًا في تقديم الحلول التكنولوجية المبتكرة التي تساعد المؤسسات في تحقيق التفوق الرقمي وتعزيز حضورها على الإنترنت بطريقة فريدة ومميزة.",
         ourMessage: "رسالتنا",
         messageText:
             "نمكن عملائنا من خلال تقديم حلول تصميم وتطوير المواقع والتطبيقات المحمولة التي تجمع بين الإبداع والتكنولوجيا المتقدمة وتجربة المستخدم الفريدة لتحقيق النجاح الرقمي المستدام.",
         ourValues: "قيمنا",
         valuesText:
-            "نحن في شركة فـكـرتـي نفخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
+            "نحن في منصة فـكـرتـي نفخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
         innovation: "الابتكار",
         quality: "الجودة",
         focusOnClient: "التركيز على العميل",
@@ -336,7 +336,7 @@ const translations = {  //Services   Ar En lang
         ourProducts: "منتجاتنا",
         productsSubTitle: "نحن نحوّل رؤيتك الرقمية إلى واقع",
         product1Title: "حصون",
-        product1Desc: "شعار شركة حصون العقارية والمقاولات",
+        product1Desc: "شعار فريق عمل حصون العقارية والمقاولات",
         product2Title: "الراية النقي",
         product2Desc: "الهوية البصرية لشركة الراية النقي",
         product3Title: "مناسبة",
@@ -372,7 +372,7 @@ const translations = {  //Services   Ar En lang
         infoSystem: "نظم المعلومات",
 
         footerInfo:
-            "في فـكـرتـي حلول مدمجة، نحن نجمع بين الإبداع والاحترافية لتحويل أفكارك إلى تجارب رقمية ملهمة. تواصل معنا اليوم لتحقيق النجاح الملموس معًا.",
+            "في منصة فـكـرتـي ، نحن نجمع بين الإبداع والاحترافية لتحويل أفكارك إلى تجارب رقمية ملهمة. تواصل معنا اليوم لتحقيق النجاح الملموس معًا.",
         footerLinks: "الروابط",
         home: "الرئيسية",
         ourServices: "خدماتنا",
@@ -380,7 +380,7 @@ const translations = {  //Services   Ar En lang
         testimonials: "آراء العملاء",
         support: "الدعم",
         termsAndConditions: "الشروط والأحكام",
-        footerAboutUs: "عن الشركة",
+        footerAboutUs: "عن فريق عمل",
         signIn: "تسجيل الدخول",
         register: "التسجيل",
         aboutUs: "من نحن",
@@ -390,7 +390,7 @@ const translations = {  //Services   Ar En lang
         footerContactText:
             "تواصل معنا عبر البريد أو الهاتف. نحن في انتظار مكالمتك أو رسالتك",
         copyrightText:
-            "© 2025 جميع الحقوق محفوظة لشركة فـكـرتـي لتطوير البرمجيات. Fikriti.com",
+            "© 2025 جميع الحقوق محفوظة لفريق عمل لتطوير البرمجيات. Fikriti.com",
     },
 };
 
@@ -424,7 +424,6 @@ function applyTranslations() {
         navList.classList.add(currentLang === "ar" ? "me-auto" : "ms-auto");
     }
 
-    // تحديث النصوص الخاصة بالعناوين والوصف
     document.querySelectorAll("[data-i18n-title]").forEach((el) => {
         const key = el.getAttribute("data-i18n-title");
         el.querySelector("h4").textContent = translations[currentLang][key];

@@ -119,8 +119,7 @@ html{
   transition: all 0.5s ease;
 }
 .navbar .navbar-brand img{
-  border-radius: 10px;
-  object-fit:fill;
+  object-fit:cover;
 }
 #navbar.scrolled {
   transition: all 0.3s ease;
@@ -184,11 +183,10 @@ html{
   border-radius: 35%;
 }
 .navbar-brand img {
-  width: 110px;
-  height: 50px;
+  width: 160px!important;
+  height: 55px!important;
 }
 .navbar .navbar-toggler {
-  color: var(--light-color);
   border-color: var(--light-color);
   border: solid 2px;
   font-size: 25px;
