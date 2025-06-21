@@ -236,57 +236,74 @@
     </div>
     <!-- tabe -->
     <!-- footer -->
-    <div class="footer text-center pt-3 pb-5 text-md-start text-white-50">
-    <div class="container">
-        <div class="row fade-in-left">
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="info">
-                    <img loading="lazy" class="mb-4 fade-in" src="../images/i-removebg-preview.png" alt="">
-                    <p class="p1-foo text-dark fade-in" data-i18n="footerInfo">
-                        At Integrated Solutions, we combine creativity and professionalism to transform your ideas
-                        into inspiring digital experiences. Connect with us today to achieve tangible success together.
-                    </p>
+    <div class="footer text-center pt-5 pb-5 text-md-start text-white-50" dir="ltr">
+        <div class="container">
+            <div class="row fade-in-left foo-text">
+
+                <div class="col-md-6 col-lg-4 section-info">
+                    <div class="info mb-5">
+                        <img loading="lazy" class="mb-4 fade-in-left img-L" src="../images/i-removebg-preview.png"
+                            alt="">
+                        <p class="mb-5 p1-foo text-dark fade-in-left" data-i18n="footerInfo">
+                            At Integrated Solutions, we combine creativity and professionalism to transform your ideas
+                            into inspiring digital experiences. Connect with us today to achieve tangible success
+                            together.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2 col-sm-6 fade-in-left section-links">
+                    <h5 class="text-dark" data-i18n="footerLinks">Links</h5>
+                    <ul class="list-unstyled lh-lg">
+                        <a href="/">
+                            <li data-i18n="home">Home</li>
+                        </a>
+                        <a href="{{ route('home') }}#OurServices">
+                            <li data-i18n="ourServices">Our Services</li>
+                        </a>
+                        <a href="{{ route('home') }}#OurPortfolio">
+                            <li data-i18n="portfolio">Portfolio</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-2 col-sm-6 fade-in-left section-about">
+                    <h5 class="text-dark" data-i18n="footerAboutUs">About Us</h5>
+                    <ul class="list-unstyled lh-lg">
+                        <a href="{{ route('home') }}#AboutUs">
+                            <li data-i18n="aboutUs">About Us</li>
+                        </a>
+                        <a href="{{ route('home') }}#Contact">
+                            <li data-i18n="contactUs">Contact Us</li>
+                        </a>
+                        <a href="">
+                            <li data-i18n="blog">Blog</li>
+                        </a>
+                        <a href="">
+                            <li data-i18n="privacy">privacy policy</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-4 fade-in-left section-contact">
+                    <div class="contact">
+                        <h5 class="text-dark mb-2" data-i18n="footerContact">Contact Us</h5>
+                        <p class="lh-lg text-dark" data-i18n="footerContactText">
+                            Get in touch with us via mail or phone. We are waiting for your call or message.
+                        </p>
+                        <a class="btn rounded-pill main-btn w-100 mt-3"
+                            href="mailto:info@fikriti.com">info@fikriti.com</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-2 col-sm-6 mb-4">
-                <h5 class="text-dark fade-in" data-i18n="footerLinks">Links</h5>
-                <ul class="list-unstyled lh-lg">
-                    <li><a href="#" data-i18n="home">Home</a></li>
-                    <li><a href="#" data-i18n="ourServices">Our Services</a></li>
-                    <li><a href="#" data-i18n="portfolio">Portfolio</a></li>
-                    <li><a href="#" data-i18n="testimonials">Testimonials</a></li>
-                    <li><a href="#" data-i18n="support">Support</a></li>
-                    <li><a href="#" data-i18n="termsAndConditions">Terms And Conditions</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-lg-2 col-sm-6 mb-4">
-                <h5 class="text-dark fade-in" data-i18n="footerAboutUs">About Us</h5>
-                <ul class="list-unstyled lh-lg">
-                    <li><a href="#" data-i18n="signIn">Sign in</a></li>
-                    <li><a href="#" data-i18n="register">Register</a></li>
-                    <li><a href="#" data-i18n="aboutUs">About Us</a></li>
-                    <li><a href="#" data-i18n="blog">Blog</a></li>
-                    <li><a href="#" data-i18n="contactUs">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="contact fade-in">
-                    <h5 class="text-dark mb-2 fade-in" data-i18n="footerContact">Contact Us</h5>
-                    <p class="lh-lg text-dark" data-i18n="footerContactText">
-                        Get in touch with us via mail or phone. We are waiting for your call or message
-                    </p>
-                    <a class="btn rounded-pill main-btn w-100 mt-3" href="mailto:info@fikriti.com">info@fikriti.com</a>
+            <hr>
+            <div class="copyright text-dark fade-in-left text-center">
+                <div>
+                    <span  data-i18n="copyrightText" > © 2025 All rights reserved for Fikriti Software Development team. </span>
+                    <span class="blue-text" onclick="location.href=('../../index.html')">Fikrati.com</span>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="copyright text-dark text-center fade-in-left">
-            <div data-i18n="copyrightText">
-                © 2025 All rights reserved for Fikriti Software Development Company.
-                <span class="blue-text fade-in">Fikriti.com</span>
-            </div>
-        </div>
-    </div>
     </div>
     <!-- footer -->
     <!-- whatsapp -->

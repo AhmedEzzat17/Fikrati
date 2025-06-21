@@ -61,12 +61,13 @@ const translations = {  //Services   Ar En lang
         register: "Register",
         aboutUs: "About Us",
         blog: "Blog",
+        privacy: "Privacy Policy",
         contactUs: "Contact Us",
         footerContact: "Contact Us",
         footerContactText:
             "Get in touch with us via mail or phone. We are waiting for your call or message",
         copyrightText:
-            "© 2025 All rights reserved for Fikriti Software Development Company. Fikriti.com",
+            "© 2025 All rights reserved for Fikriti Software Development Team.",
     },
     ar: {
         title:"فـكـرتـي | حلول برمجية وتصميم مواقع وتطبيقات",
@@ -130,12 +131,13 @@ const translations = {  //Services   Ar En lang
         register: "التسجيل",
         aboutUs: "من نحن",
         blog: "المدونة",
+        privacy: "سياسة الخصوصية",
         contactUs: "اتصل بنا",
         footerContact: "اتصل بنا",
         footerContactText:
             "تواصل معنا عبر البريد أو الهاتف. نحن في انتظار مكالمتك أو رسالتك",
         copyrightText:
-            "© 2025 جميع الحقوق محفوظة لشركة فـكـرتـي لتطوير البرمجيات. Fikriti.com",
+            "© 2025 جميع الحقوق محفوظة لفريق عمل فـكـرتـي لتطوير البرمجيات.",
     },
 };
 

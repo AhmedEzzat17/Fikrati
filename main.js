@@ -53,7 +53,7 @@ const translations = {  //Services   Ar En lang
         aboutus_subtitle:
             "We are a team specialized in providing integrated programming services that meet all our clients needs.",
         aboutus_paragraph:
-            "From programming and designing smartphone applications to developing desktop applications and hosting websites, Fikrati and its team have strived since its inception to become one of the most prominent Arab web development companies. We offer integrated solutions that meet all our clients' digital needs, and we know the path well and are moving forward with confidence.",
+            "From programming designing Website and smartphone applications to developing desktop applications and hosting websites, Fikrati and its team have strived since its inception to become one of the most prominent Arab web development companies. We offer integrated solutions that meet all our clients' digital needs, and we know the path well and are moving forward with confidence.",
 
         ourServices: "Our Services",
         qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
@@ -212,7 +212,7 @@ const translations = {  //Services   Ar En lang
         footerContactText:
             "Get in touch with us via mail or phone. We are waiting for your call or message",
         copyrightText:
-            "© 2025 All rights reserved for Fikriti Software Development team. Fikriti.com",
+            "© 2025 All rights reserved for Fikriti Software Development team.",
     },
     ar: {
         title:"فـكـرتـي | حلول برمجية وتصميم مواقع وتطبيقات",
@@ -234,7 +234,7 @@ const translations = {  //Services   Ar En lang
         aboutus_title: "من نحن",
         aboutus_subtitle: " نحن فريق متخصص في تقديم خدمات برمجة متكاملة تلبي جميع احتياجات عملائنا.",
         aboutus_paragraph:
-            "بدءًا من برمجة وتصميم تطبيقات الهواتف الذكية، إلى تطوير تطبيقات الديسكتوب واستضافة المواقع، تسعى فكرتي وفريق عملها منذ تأسيسها إلى أن تكون من أبرز شركات تطوير الويب العربية. نحن نقدم حلولاً متكاملة تلبي جميع احتياجات عملائنا الرقمية، ونعرف الطريق جيدًا ونسير عليه بخطى واثقة.",
+            "بدءًا من برمجة وتصميم المواقع و تطبيقات الهواتف الذكية، إلى تطوير تطبيقات الديسكتوب واستضافة المواقع، تسعى فكرتي وفريق عملها منذ تأسيسها إلى أن تكون من أبرز شركات تطوير الويب العربية. نحن نقدم حلولاً متكاملة تلبي جميع احتياجات عملائنا الرقمية، ونعرف الطريق جيدًا ونسير عليه بخطى واثقة.",
         ourServices: "خدماتنا",
         qualityMeetsInnovation: "حيث تلتقي الجودة بالابتكار",
         serviceIntro: "نقدم خدمات عالية الجودة تضمن الابتكار والكفاءة.",
@@ -394,7 +394,7 @@ const translations = {  //Services   Ar En lang
         footerContactText:
             "تواصل معنا عبر البريد أو الهاتف. نحن في انتظار مكالمتك أو رسالتك",
         copyrightText:
-            "© 2025 جميع الحقوق محفوظة لفريق عمل لتطوير البرمجيات. Fikriti.com",
+            "© 2025 جميع الحقوق محفوظة لفريق عمل فكرتي لتطوير البرمجيات.",
     },
 };
 

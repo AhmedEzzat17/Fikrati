@@ -9,103 +9,6 @@ const translations = {  //Services   Ar En lang
         products: "Our Products",
         contact: "Contact",
         
-        hero_title: "Fikriti Software Solutions.",
-        hero_paragraph:
-            "For website design and development services and phone applications operating on the Android and iOS operating systems, the company provides integrated web solutions to all institutions in the world and has a huge customer base in all countries of the world.",
-        hero_portfolio: "Our Portfolio",
-        hero_details: "More Details",
-        hero_products: "Our Services",
-
-        aboutus_title: "About Us",
-        aboutus_subtitle:
-            "Fikriti is a company specialized in providing Integrated web services",
-        aboutus_paragraph:
-            "Starting from graphic design to programming and designing smartphone applications, Fikriti and its team have worked since its inception to become one of the leading Arab web development companies. We know the path and we’re walking it with steady steps.",
-
-        ourServices: "Our Services",
-        qualityMeetsInnovation: "WHERE QUALITY MEETS INNOVATION",
-        serviceIntro:
-            "We provide high-quality services that ensure innovation and efficiency.",
-        webDevelopment: "Website development",
-        webDevelopmentDesc:
-            "Website development is a field that focuses on creating and designing websites. It includes two main parts: front-end which deals with the user interface and back-end which handles databases and servers. It uses technologies like HTML, CSS, JavaScript and programming languages like PHP or Python.",
-        mobileApp: "Mobile application",
-        mobileAppDesc:
-            "Mobile application development is the field focused on creating applications for mobile devices on platforms like iOS and Android. It uses technologies and languages like Swift, Kotlin, Flutter, and React Native to create apps that work across different devices.",
-        desktopDev: "Desktop development",
-        desktopDevDesc:
-            "Desktop application development is the field focused on creating software that runs on desktop computers. It involves using languages and technologies like C#, Java, Python, and C++ to create applications that work on operating systems like Windows, MacOS, and Linux.",
-        techConsulting: "Technical consulting",
-        techConsultingDesc:
-            "Technical consulting is the field focused on providing advice and technical services to businesses or individuals to improve and develop their technological systems. It involves helping clients make strategic decisions about the best tools and technologies for their needs.",
-        cloudServices: "Cloud services",
-        cloudServicesDesc:
-            "Cloud services is the field focused on providing technological solutions over the internet, such as data storage, computing, and remote system management. It involves using platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud to deliver services in a flexible and secure way.",
-        testing: "Testing and Maintenance",
-        testingDesc:
-            "Testing and maintenance is the field focused on ensuring software quality by inspecting and testing it to identify bugs and issues. It also involves maintaining systems after launch to ensure their continuity and improve their performance.",
-        showMore: "Show More",
-        WebDetails: `➥ User interface design & experience design (UI/UX)
-
-➥ Front End & Back End development
-
-➥ E-commerce development
-
-➥ Dynamic websites`,
-        MobDetails: `➥ Native app development (iOS/Android)
-
-➥ Cross-platform development (e.g. Flutter, React Native)
-
-➥ Mobile UI/UX design
-
-➥ App store optimization (ASO)`,
-        DeskDetails: `➥ Native desktop app development (Windows, macOS, Linux)
-
-➥ Cross-platform desktop apps (e.g. Electron, Qt)
-
-➥ Desktop UI/UX design
-
-➥ Performance optimization for desktop apps`,
-        TechDetails: `➥ IT infrastructure consulting
-
-➥ Software architecture consulting
-
-➥ Cybersecurity consulting
-
-➥ Digital transformation strategy`,
-        CloudDetails: `➥ Cloud infrastructure setup (AWS, Azure, GCP)
-
-➥ Cloud migration services
-
-➥ Cloud security and compliance
-
-➥ Serverless architecture`,
-        TestDetails: `➥  Manual and automated testing
-
-➥ Bug fixing and troubleshooting
-
-➥ Security updates and patching
-
-➥ Software version upgrades`,
-
-        OurGoals:"Our Goals",
-        ourVision: "Our Vision",
-        visionText:
-            "We seek to be the world's leading company in providing innovative technological solutions that help organizations achieve digital excellence and enhance their presence on the Internet in a unique and distinct way.",
-        ourMessage: "Our Message",
-        messageText:
-            "We empower our clients by providing website and mobile application design and development solutions that combine creativity, advanced technology, and a unique user experience to achieve their sustainable digital success.",
-        ourValues: "Our Values",
-        valuesText:
-            "We at Fikriti Corporation are proud of a set of core values that drive our operations, build our relationships with our customers, and define our approach to providing integrated technology solutions.",
-        innovation: "Innovation",
-        quality: "Quality",
-        focusOnClient: "Focus On The Client",
-        teamwork: "Teamwork",
-        quickResponse: "Quick Response",
-        continuousLearning: "Continuous Learning",
-        sustainability: "Sustainability",
-
         ourPortfolio: "Our Portfolio",
         circle: "Dp Clothing",
         circleDescription:
@@ -115,6 +18,9 @@ const translations = {  //Services   Ar En lang
             "Online store for fresh fruits and vegetables with a user-friendly, responsive design.",
         adhmn: "Quarter State",
         adhmnDescription: "Real estate website for browsing and buying properties with a responsive, easy-to-navigate design.",
+        Advert: "United Digital Advertising",
+        AdvertDescription: "Website for an innovative digital advertising company offering innovative marketing solutions.",
+
         website: "Website",
         androidApp: "Android App",
         iosApp: "iOS App",
@@ -122,13 +28,6 @@ const translations = {  //Services   Ar En lang
 
         ourProducts: "Our Products",
         productsSubTitle: "We bring your digital vision to life",
-        product1Title: "Husun",
-        product1Desc: "Logo of Husun Real Estate and Contracting Company",
-        product2Title: "Al Raya Al Naqi",
-        product2Desc: "Visual identity for Al Raya Al Naqi Company",
-        product3Title: "Munasaba",
-        product3Desc: "Logo for the 'munasaba' application for booking events",
-        showAll: "Show all",
 
         contactWithUs: "Contact With Us",
         helpBuildApp: "LET US HELP YOU BUILD YOUR NEXT APP.",
@@ -172,12 +71,13 @@ const translations = {  //Services   Ar En lang
         register: "Register",
         aboutUs: "About Us",
         blog: "Blog",
+        privacy: "Privacy Policy",
         contactUs: "Contact Us",
         footerContact: "Contact Us",
         footerContactText:
             "Get in touch with us via mail or phone. We are waiting for your call or message",
         copyrightText:
-            "© 2025 All rights reserved for Fikriti Software Development Company. Fikriti.com",
+            "© 2025 All rights reserved for Fikriti Software Development Team.",
     },
     ar: {
         title:"فـكـرتـي | حلول برمجية وتصميم مواقع وتطبيقات",
@@ -189,103 +89,6 @@ const translations = {  //Services   Ar En lang
         products: "منتجاتنا",
         contact: "تواصل معنا",
 
-        hero_title: "حلول فكرتي البرمجية",
-        hero_paragraph:
-            "لتصميم وتطوير المواقع الإلكترونية وتطبيقات الهواتف الذكية العاملة على أنظمة أندرويد وiOS، تقدم الشركة حلول ويب متكاملة لجميع المؤسسات حول العالم وتملك قاعدة عملاء ضخمة في كل الدول.",
-        hero_portfolio: "أعـمـالـنـا",
-        hero_details: "المزيد من التفاصيل",
-        hero_products: "خـدمـاتـنـا",
-
-        aboutus_title: "من نحن",
-        aboutus_subtitle: "فـكـرتـي هي شركة متخصصة في تقديم خدمات الويب المتكاملة",
-        aboutus_paragraph:
-            "بدءًا من التصميم الجرافيكي إلى برمجة وتصميم تطبيقات الهواتف الذكية، تسعى فـكـرتـي وفريق عملها منذ تأسيسها لتكون من أبرز شركات تطوير الويب العربية. نحن نعرف الطريق ونسير عليه بخطى واثقة.",
-
-        ourServices: "خدماتنا",
-        qualityMeetsInnovation: "حيث تلتقي الجودة بالابتكار",
-        serviceIntro: "نقدم خدمات عالية الجودة تضمن الابتكار والكفاءة.",
-        webDevelopment: "تطوير المواقع الإلكترونية",
-        webDevelopmentDesc:
-            "تطوير المواقع هو مجال بيختص بإنشاء وتصميم مواقع الإنترنت. بيشمل جانبين: الفرونت إند اللي بيتعامل مع واجهة المستخدم والباك إند اللي بيتعامل مع قواعد البيانات والسيرفرات. بيستخدم تقنيات زي HTML, CSS, JavaScript ولغات زي PHP أو Python. HTML, CSS, JavaScript، ولغات زي PHP أو Python.",
-        mobileApp: "تطبيقات الجوال",
-        mobileAppDesc:
-            "تطوير تطبيقات الموبايل هو مجال بيختص بإنشاء تطبيقات للهواتف المحمولة على أنظمة زي iOS و Android. بيستخدم تقنيات ولغات زي Swift و Kotlin و Flutter و React Native لإنشاء تطبيقات تعمل على الأجهزة المختلفة.",
-        desktopDev: "تطبيقات سطح المكتب",
-        desktopDevDesc:
-            "تطوير تطبيقات سطح المكتب هو مجال بيختص بإنشاء برامج تعمل على أجهزة الكمبيوتر المكتبية. بيشمل استخدام لغات وتقنيات زي C#, Java, Python، وC++ لإنشاء تطبيقات بتعمل على أنظمة تشغيل زي Windows وMacOS وLinux.",
-        techConsulting: "الاستشارات التقنية",
-        techConsultingDesc:
-            "الاستشارات التقنية هي مجال بيختص بتقديم النصائح والخدمات الفنية للشركات أو الأفراد لتحسين وتطوير أنظمتهم التكنولوجية. بيشمل مساعدة العملاء في اتخاذ قرارات استراتيجية حول الأدوات والتقنيات الأنسب لاحتياجاتهم.",
-        cloudServices: "خدمات السحابة",
-        cloudServicesDesc:
-            "خدمات السحابة هي مجال بيختص بتقديم حلول تكنولوجية من خلال الإنترنت مثل تخزين البيانات، الحوسبة، وإدارة الأنظمة عن بُعد. بيشمل استخدام منصات زي Amazon Web Services (AWS)، Microsoft Azure، وGoogle Cloud لتوفير الخدمات بشكل مرن وآمن.",
-        testing: "الاختبار والصيانة",
-        testingDesc:
-            "الاختبار والصيانة هو مجال بيختص بضمان جودة البرمجيات من خلال فحصها واختبارها للكشف عن الأخطاء والمشاكل. بيشمل أيضًا صيانة الأنظمة بعد إطلاقها لضمان استمراريتها وتحسين أدائها.",
-        showMore: "عرض المزيد",
-
-        WebDetails: `➥ تصميم واجهة وتجربة المستخدم (UI/UX)
-
-➥ تطوير الواجهة الأمامية والخلفية
-        
-➥ تطوير المتاجر الإلكترونية
-        
-➥ المواقع الديناميكية`,
-        MobDetails: `➥ تطوير التطبيقات الأصلية (iOS/Android)
-
-➥ تطوير التطبيقات عبر الأنظمة (مثل Flutter، React Native)
-
-➥ تصميم واجهة وتجربة المستخدم للتطبيقات
-
-➥ تحسين ظهور التطبيقات في متجر التطبيقات (ASO)`,
-        DeskDetails: `➥ تطوير التطبيقات الأصلية لسطح المكتب (Windows، macOS، Linux)
-
-➥ تطبيقات سطح المكتب عبر الأنظمة (مثل Electron، Qt)
-
-➥ تصميم واجهة وتجربة المستخدم لسطح المكتب
-
-➥ تحسين الأداء لتطبيقات سطح المكتب`,
-        TechDetails: `➥ استشارات البنية التحتية لتكنولوجيا المعلومات
-
-➥ استشارات هيكلة البرمجيات
-
-➥ استشارات الأمن السيبراني
-
-➥ استراتيجية التحول الرقمي`,
-        CloudDetails: `➥ إعداد بنية تحتية سحابية (AWS، Azure، GCP)
-
-➥ خدمات ترحيل البيانات إلى السحابة
-
-➥ أمان السحابة والامتثال
-
-➥ البنية المعمارية بدون خوادم (Serverless)`,
-        TestDetails: `➥ الاختبار اليدوي والتلقائي
-
-➥ إصلاح الأخطاء وحل المشاكل
-
-➥ التحديثات الأمنية وتصحيح الأخطاء
-
-➥ ترقية إصدارات البرمجيات`,
-
-
-        OurGoals:"أهدافنا",
-        ourVision: "رؤيتنا",
-        visionText:
-            "نسعى لأن نكون الشركة الرائدة عالميًا في تقديم الحلول التكنولوجية المبتكرة التي تساعد المؤسسات في تحقيق التفوق الرقمي وتعزيز حضورها على الإنترنت بطريقة فريدة ومميزة.",
-        ourMessage: "رسالتنا",
-        messageText:
-            "نمكن عملائنا من خلال تقديم حلول تصميم وتطوير المواقع والتطبيقات المحمولة التي تجمع بين الإبداع والتكنولوجيا المتقدمة وتجربة المستخدم الفريدة لتحقيق النجاح الرقمي المستدام.",
-        ourValues: "قيمنا",
-        valuesText:
-            "نحن في شركة فـكـرتـي نفخر بمجموعة من القيم الأساسية التي توجه عملياتنا، وبناء علاقاتنا مع عملائنا، وتحدد نهجنا في تقديم الحلول التكنولوجية المتكاملة.",
-        innovation: "الابتكار",
-        quality: "الجودة",
-        focusOnClient: "التركيز على العميل",
-        teamwork: "العمل الجماعي",
-        quickResponse: "الاستجابة السريعة",
-        continuousLearning: "التعلم المستمر",
-        sustainability: "الاستدامة",
-
         ourPortfolio: "أعمالنا",
         qualityMeetsInnovation: "حيث يلتقي الجودة بالإبداع",
         circle: "Dp Clothing",
@@ -295,19 +98,12 @@ const translations = {  //Services   Ar En lang
             "موقع لبيع الخضراوات والفاكهة أونلاين بتصميم سهل الاستخدام ومتجاوب.",
         adhmn: "Quarter State",
         adhmnDescription: "موقع لعرض وشراء العقارات بتصميم متجاوب وسهل التصفح.",
+        Advert: "United Digital Advertising",
+        AdvertDescription: " موقع ويب لشركة إعلانات رقمية مبتكرة تقدم حلول تسويقية مبتكرة.",
+
         website: "موقع إلكتروني",
         androidApp: "تطبيق أندرويد",
         iosApp: "تطبيق آيفون",
-        showAll: "عرض الكل",
-
-        ourProducts: "منتجاتنا",
-        productsSubTitle: "نحن نحوّل رؤيتك الرقمية إلى واقع",
-        product1Title: "حصون",
-        product1Desc: "شعار شركة حصون العقارية والمقاولات",
-        product2Title: "الراية النقي",
-        product2Desc: "الهوية البصرية لشركة الراية النقي",
-        product3Title: "مناسبة",
-        product3Desc: "شعار تطبيق مناسبة لحجز الحفلات والفعاليات",
         showAll: "عرض الكل",
 
         contactWithUs: "تواصل معنا",
@@ -352,12 +148,13 @@ const translations = {  //Services   Ar En lang
         register: "التسجيل",
         aboutUs: "من نحن",
         blog: "المدونة",
+        privacy: "سياسة الخصوصية",
         contactUs: "اتصل بنا",
         footerContact: "اتصل بنا",
         footerContactText:
             "تواصل معنا عبر البريد أو الهاتف. نحن في انتظار مكالمتك أو رسالتك",
         copyrightText:
-            "© 2025 جميع الحقوق محفوظة لشركة فـكـرتـي لتطوير البرمجيات. Fikriti.com",
+            "© 2025 جميع الحقوق محفوظة لفريق عمل فـكـرتـي لتطوير البرمجيات.",
     },
 };
 
